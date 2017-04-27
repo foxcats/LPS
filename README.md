@@ -1,7 +1,9 @@
 # LPS, OS and LPM
 
 LPS is the searching API to get datas in LODs using Link-Policy.
-Os is the searching API to get datas that have ontology Info using in LPS RDF results like 'predicate'
+
+Os is the searching API to get datas that have ontology Info using in LPS RDF results like 'predicate'.
+
 LPM is the Link-Policy maker used in LPS.
 
 
