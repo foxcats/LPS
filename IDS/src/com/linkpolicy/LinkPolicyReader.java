@@ -20,19 +20,11 @@ public class LinkPolicyReader {
 	public void readLinkPolicy(String linkPolicyName)
 	{
 		 // create an empty model
-		 Model model = ModelFactory.createDefaultModel();
+		
+		Model model = ModelFactory.createDefaultModel();
 
-		 model.read(linkPolicyName+".rdf");/*
-		 // use the FileManager to find the input file
-		 FileInputStream in = (FileInputStream) FileManager.get().open( linkPolicyName+".rdf" );
-		if (in == null) {
-		    throw new IllegalArgumentException(
-		                                 "File: " + linkPolicyName + " not found");
-		}
-
-		// read the RDF/XML file
-		model.read(in,null);
-		model.read*/
+		model.read(linkPolicyName+".rdf"); //read Link-Policy
+		
 		model.write(System.out, "RDF/XML-ABBREV");
 		
 		this.linkPolicy=model;
@@ -46,10 +38,12 @@ public class LinkPolicyReader {
 
 			model = ModelFactory.createDefaultModel();
 			model.read(getLinkPolicyName(qNode.getData().getSparqlEndpoint())+".rdf");
-			System.out.println("연결정책:"+getLinkPolicyName(qNode.getData().getSparqlEndpoint()));
+			//make Link-Policy name using sparqlEndpoint by method getLinkPolicyName
+			//*Link-Plicy name is unified check readmd
+			System.out.println("Link-Policy:"+getLinkPolicyName(qNode.getData().getSparqlEndpoint()));
 		
 		}catch(org.apache.jena.riot.RiotNotFoundException e){
-			System.out.println("연결정책 없음");
+			System.out.println("There are no Link-Policy");
 			return null;
 		}
 		
@@ -59,7 +53,7 @@ public class LinkPolicyReader {
 	
 	public String getLinkPolicyName (String tmp)
 	{
-		//sparqlEndPoint 생성
+		//Make Link-Policy file name using SPARQL Endpoint
 		ArrayList<String> tmp_str=new ArrayList<String>();
 	
 		StringTokenizer st = new StringTokenizer(tmp,"/"); 
@@ -69,6 +63,7 @@ public class LinkPolicyReader {
 		
 		
 		return tmp_str.get(1)+"_linkPolicy";
+		//*Link-Plicy name is unified check 'readmd'
 
 	}
 
