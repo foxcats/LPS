@@ -8,7 +8,10 @@ import com.matcher.Matcher;
 
 public class IDSFactory {
 
-	
+	/**
+	You can get the searching measures from IDSFactory.
+	Method(getLPS,getELS,getCLS) in IDSFactory is used to class of IDSController
+	**/
 	
 	public IDSearcher getLPS()
 	{
