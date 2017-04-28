@@ -15,14 +15,18 @@ import com.writer.TripleAccumulator;
 
 public class IDScontroller {
 
-	public static Que IDSQueue=new Que(); //심층검색을 위한 큐
+	/**
+	IDScontroller get class that perform In-depth searching from IDSFactory using method 'searchingInLOD'
+	**/
 	
-	public LinkPolicyReader linkPolicyReader;
+	public static Que IDSQueue=new Que(); //Queue for in-depth searching
 	
-	private String surfaceUri;//표층검색 결과 Uri
-	private String sparql;//표층검색 sparql;
-	private int depth;//초기 설정 깊이
-	private int similarity;//초기 설정 유사도
+	public LinkPolicyReader linkPolicyReader;//Reader for Link-Policy
+	
+	private String surfaceUri;//SPARQL EndpPoint of SourceLOD ex) http://ko.dbpedia.org/sparql
+	private String sparql;//SPARQL Query
+	private int depth;//Depth to perform in-depth searhcing
+	private int similarity;//Similarity to compare object between sourceLOD and targetLOD
 	
 
 	public IDScontroller(LinkPolicyReader linkPolicyReader, String surfaceUri,String sparql,int depth,int similarity)
@@ -39,52 +43,52 @@ public class IDScontroller {
 	
 		Model linkpolicy=null;
 		HashSet<String> duplicationList=new HashSet<String>();
-		Search surfaceSearcher=new Searcher();
-		SurfaceSearching surfaceSearch=new SurfaceSearching(surfaceSearcher);
-		surfaceSearch.surfaceSearch(sparql,surfaceUri,depth,similarity);
-		//표층 검색 큐에 등록
+		Search surfaceSearcher=new Searcher();//make a searcher to execute sparql query
+		SurfaceSearching surfaceSearch=new SurfaceSearching(surfaceSearcher);// start surface searching
+		surfaceSearch.surfaceSearch(sparql,surfaceUri,depth,similarity);//insert results of surface searching in queue
+	
 		
-		UriFilter uriFilter=new UriFilter();
-		TripleAccumulator trAccumulator=new TripleAccumulator();
+		UriFilter uriFilter=new UriFilter();//make UriFilter
+		TripleAccumulator trAccumulator=new TripleAccumulator();//make TripleAccumulator
 		int flag;
 		
 		while(!IDSQueue.isEmpty())
 		{
 			
 			Qnode qNode=IDSQueue.deQueue();
-			//큐에서 uri를 가져옴
+			//get Node from queue
 			
 			if((flag=uriFilter.checkNode(qNode))==0)
 			{
-				//uri의 http 접속 유무와 깊이 체크
+				//Check URI's validity 
 				continue;
 			}
 				
 			if(!checkDuplication(duplicationList,qNode))
 			{
-				//중복체크
+				//Check duplication in queue 
 				continue;
 			}
 			
 			showURI(qNode);
-			trAccumulator.writeRDF(qNode);
+			trAccumulator.writeRDF(qNode);//write Uri's info by rdf triple 
 			
-			linkpolicy=this.linkPolicyReader.getLinkPolicy(qNode);
+			linkpolicy=this.linkPolicyReader.getLinkPolicy(qNode); //Read Link-Policy to be relevent about Uri's sparql endpoint
 			
-			if(linkpolicy==null)
+			if(linkpolicy==null)//if there are no Link-Policy matched, get next node in queue
 			{
 				continue;
 			}
 			
 			if(flag==1){
-				IDS.setLinkPolicy(linkpolicy);
-				IDS.setQnode(qNode);
-				IDS.setSimilarity(similarity);
-				IDS.search();
+				IDS.setLinkPolicy(linkpolicy); //set Link-Policy you read above
+				IDS.setQnode(qNode);//set qNode you read above
+				IDS.setSimilarity(similarity);//set similarity 
+				IDS.search();//start IDS(LPS, EPS or CLS
 			}
 		}
 			
-		trAccumulator.writeFile();
+		trAccumulator.writeFile();//output result
 		
 		
 		
@@ -94,7 +98,7 @@ public class IDScontroller {
 	
 	public boolean checkDuplication(HashSet<String> duplicationList,Qnode qNode)
 	{
-		
+		//Duplication check using HashSet
 		int duplicationListNum=duplicationList.size();
 		
 		duplicationList.add(qNode.getData().getUri()+qNode.getData().getsurfaceSearchUri());
