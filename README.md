@@ -34,13 +34,19 @@ Predicate Matching Specifiation is predicate informations about source LOD and t
 Predicate Matching Specification is subordinate to Topic Restriction Specification.
 this mean that Predicate Mathching Specification takes effect when source entity and target entity are matched to Topic Restriction Specification with whitch Predicate Matching Specificatio is linked.
 
+if you want to check Link-Policy, Please download Link-Policy in this folder (ko.dbpedia.org_linkPolicy.rdf,fr.dbpedia.org_linkPolicy.rdf...)
+
+# OS(Ontology Searcher)
+
+We serve Ontology Searcher to recognize predicate Information in IDS results of RDF triple.
 
 
-# LPM 
+
+# LPM (Link-Policy Maker)
 
 if you want to make Link-Policy
 
 Please make file name  using SPARQL Endpoint
 
 For example,
-http://ko.dbpeda.org/sparql-> ko.dbpedia.org_linkpolicy.rdf
+http://ko.dbpeda.org/sparql-> ko.dbpedia.org_linkPolicy.rdf
