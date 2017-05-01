@@ -58,7 +58,8 @@ public class LinkPolicyMatcher implements Matcher{
 		this.sourceLOD=qNode.getData().getSparqlEndpoint();
 		
 		ArrayList<String> typePredicateList=getTypePredicateList(qNode.getData().getSparqlEndpoint());
-
+		//get sourceLOD's predicates that discript topic registried in Link-Policy.
+		
 		for(int k=0; k<TripleInformation.getList().size(); k++)
 		{
 			for(int p=0; p<typePredicateList.size(); p++)
@@ -68,7 +69,9 @@ public class LinkPolicyMatcher implements Matcher{
 					if(searchTypeRestriction(
 							TripleInformation.getList().get(k).getObject(),TripleInformation.getList().get(k).getPredicate(),qNode.getData().getSparqlEndpoint()))
 					{
-						System.out.println("일치하는 타입 발견");
+						//if find predicate that describe topic, check topic in Link-Policy.
+						
+						System.out.println("find topic matched");
 						return true;
 					}
 				}
@@ -99,6 +102,7 @@ public class LinkPolicyMatcher implements Matcher{
 		      RDFNode matchedTargetPredicate=soln.get("?o7");
 		      if(sourcePredicate.equals(matchedSourcePredicate.toString()))
 		      {
+			   //if there are source entity's predicates matched by Link-Policy, save target LOD's predicate connected with them.
 		    	  addPredicateMatchingInfo(sourcePredicate,sourceObject,matchedTargetPredicate.toString());
 		      }
 		    }
@@ -109,7 +113,7 @@ public class LinkPolicyMatcher implements Matcher{
 	public void addPredicateMatchingInfo(
 			String sourcePredicate,String sourceObject,String targetPredicate)
 	{
-		
+		//save objects described by predicate matched and targetLOD's predicates connected with that.
 		for(int i=0; i<this.predicateMatchinginfo.size(); i++)
 		{
 			if(sourcePredicate.equals(this.predicateMatchinginfo.get(i).getSourcePredicate()))
@@ -127,6 +131,8 @@ public class LinkPolicyMatcher implements Matcher{
 	
 	public void getTargetTypeRestrcition(String sourceType)
 	{
+		
+		//get Topic Restriction Specification about targetLOD matched with 'sourceType'.
 		String query="select ?o5 ?o6 where { <"+this.sourceLOD+"> <http://linkpolicy.org/ontology/linkpolicy> ?o."
 				+"?o <http://linkpolicy.org/ontology/restrictPredicateMatch> ?o2."
 				+"?o2 <http://linkpolicy.org/ontology/sourceRistricType> ?o3. FILTER regex(?o3,\""+sourceType+"\")"
@@ -149,6 +155,8 @@ public class LinkPolicyMatcher implements Matcher{
 	
 	public ArrayList<String> getTypePredicateList(String uri)
 	{
+		
+		//get predicates describe topic
 		ArrayList<String> typePredicateList=new ArrayList<String>();
 		String query="select ?o3 where {<"+uri+"> <http://linkpolicy.org/ontology/linkpolicy> ?o."
 				+"?o <http://linkpolicy.org/ontology/restrictPredicateMatch> ?o2. ?o2 <http://linkpolicy.org/ontology/sourceRestricPredicate> ?o3}";
@@ -170,7 +178,7 @@ public class LinkPolicyMatcher implements Matcher{
 	public boolean searchTypeRestriction(
 			String type,String typePredicate,String sourceUri)
 	{
-		
+		//get Topic Restriction Specification about targetLOD matched with 'type'.
 		int flag=0;
 			String query="select ?o5 ?o7 ?o8 where {<"+sourceUri+"> <http://linkpolicy.org/ontology/linkpolicy> ?o."
 			+"?o <http://linkpolicy.org/ontology/targetLOD> ?o2 FILTER regex(?o2,\""+this.targetLOD+"\")"
@@ -192,9 +200,8 @@ public class LinkPolicyMatcher implements Matcher{
 		      
 		      if(type.equals(sourceType.toString()))
 		      {
+			      //get target LOD's topic and predicate 
 		    	  this.sourceType=sourceType.toString();
-		    	 // targetTypePredicate2.add(targetTypePredicate.toString());
-		    	 // targetType2.add(targetType.toString());
 		    	  this.targetTypePredicate=targetTypePredicate.toString();
 		    	  this.targetType=targetType.toString();
 		    	  flag=1;
@@ -209,8 +216,9 @@ public class LinkPolicyMatcher implements Matcher{
 			
 		return false;
 	}
-	public ArrayList<String> getTargetList(String uri)//소스LOD의 타겟 LOD탐색
+	public ArrayList<String> getTargetList(String uri)
 	{
+		//get target LOD list linked with source LOD
 		
 		ArrayList<String> targetList=new ArrayList<String>();
 		
