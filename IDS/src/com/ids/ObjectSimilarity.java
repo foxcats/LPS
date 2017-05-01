@@ -37,14 +37,12 @@ public class ObjectSimilarity {
 		
         double similarity=twogram.distance(srcObject,trgObject);
         
-       // System.out.println("소스:"+srcObject+" "+"타겟:"+trgObject+"  "+similarity);
         return similarity;
 	 }
 
 	 static String replaceS(String src){
 	  String[] r = {" ","\t","-","\r","\n",".",","};
 	  for (String t:r ) src = src.replace(t,"");
-	  //System.out.println(" -> replaced src:"+src);
 	  return src;
 	 }
 	 
@@ -58,7 +56,6 @@ public class ObjectSimilarity {
 			StringTokenizer st;
 			
 			if(tmp.contains("@")){
-				//System.out.println("ddd");
 				st = new StringTokenizer(tmp,"@"); 
 				if(st.countTokens()>1)
 			
@@ -108,7 +105,6 @@ public class ObjectSimilarity {
 			
 			if(tmp.contains("["))
 			{
-				//System.out.println("ddd");
 				st = new StringTokenizer(tmp,"["); 
 				if(st.countTokens()>1)
 					
