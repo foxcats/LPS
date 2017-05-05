@@ -27,7 +27,8 @@ public class ObjectComparison implements Comparison{
 	public void compareWithCandidate(ArrayList<PredicateMatchingInfo> predicateMatchinginfo,TargetModel targetCandidate,
 			String sparqlEndpoint, int depth, String surfaceSearchUri,String parentURI,int similiarty) 
 	{
-		// TODO Auto-generated method stub
+	
+		//comapare objects between sourceLOD's entity and targetLOD's candidate entities.
 		
 		this.subjectScore=0;
 		this.finalResult=new ArrayList<String>();
@@ -36,6 +37,7 @@ public class ObjectComparison implements Comparison{
 		
 		
 		ArrayList<String> targetSubject=getTargetSubject(targetCandidate);
+		//get candidate en
 		
 		for(int i=0 ; i<targetSubject.size(); i++)
 		{
