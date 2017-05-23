@@ -34,7 +34,7 @@ public class IDScontroller {
 		this.surfaceUri=surfaceUri;
 		this.sparql=sparql;
 		this.depth=depth;
-		this.similarity= similarity;
+		this.similarity= (1-similarity);
 		this.linkPolicyReader=linkPolicyReader;
 	}
 	
