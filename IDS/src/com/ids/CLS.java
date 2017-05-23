@@ -6,26 +6,26 @@ import com.queue.Qnode;
 
 public class CLS implements IDSearcher{
 
-	private IDSearcher fls;
+	private IDSearcher lps;
 	private IDSearcher els;
 	
 	private Qnode qNode;
 	private Model linkPolicy;
-	private int similarity;
+	private double similarity;
 	
 	public CLS(IDSearcher fls,IDSearcher els)
 	{
-		this.fls=fls;
+		this.lps=fls;
 		this.els=els;
 	}
 
 	@Override
 	public void search() {
 		// TODO Auto-generated method stub
-		fls.setLinkPolicy(linkPolicy);
-		fls.setQnode(qNode);
-		fls.setSimilarity(similarity);
-		fls.search();
+		lps.setLinkPolicy(linkPolicy);
+		lps.setQnode(qNode);
+		lps.setSimilarity(similarity);
+		lps.search();
 		
 		els.setQnode(qNode);
 		els.search();
@@ -48,7 +48,7 @@ public class CLS implements IDSearcher{
 	}
 
 	@Override
-	public void setSimilarity(int similarity) {
+	public void setSimilarity(double similarity) {
 		// TODO Auto-generated method stub
 		this.similarity=similarity;
 	}

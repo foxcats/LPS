@@ -24,9 +24,11 @@ import com.searcher.Searcher;
 
 public class CandidateConstructor implements Constructor{
 
-	
-	//select * where{?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Film>. {?s <http://fr.dbpedia.org/property/titreOriginal> ?o} UNION {?s <http://fr.dbpedia.org/property/commonsTitre> ?o} UNION {?s <http://fr.dbpedia.org/property/titre> ?o} UNION {?s <http://fr.dbpedia.org/property/annéeDeSortie> ?o} UNION {?s <http://fr.dbpedia.org/property/année> ?o}?s ?p ?o FILTER (?p=<http://fr.dbpedia.org/property/titreOriginal>|| ?p=<http://fr.dbpedia.org/property/commonsTitre>|| ?p=<http://fr.dbpedia.org/property/titre>|| ?p=<http://fr.dbpedia.org/property/annéeDeSortie>|| ?p=<http://fr.dbpedia.org/property/année>)}
+	/**
+	 * CandidateConstructor make candidates in targetLODs that have topic and predicates matched with targetLOD's LinkPolicy 
+	 */
 
+	
 
 	private HashSet<String> uriList;
 	private ArrayList<TargetModel> targetModelList;
@@ -39,37 +41,39 @@ public class CandidateConstructor implements Constructor{
 	public TargetModel searchCandidate(String targetType,
 			String targetTypePredicate,ArrayList<PredicateMatchingInfo> predicateMatchinginfo,String targetLOD)
 	{
+		//CandidateConstructor save candidate entities, because these entities can be used again
 		for(int i=0; i<targetModelList.size(); i++)
 		{
-			if(targetModelList.get(i).getTargetLOD().equals(targetLOD))
+			if(targetModelList.get(i).getTargetLOD().equals(targetLOD)) 
+				//if In-depth searching is performed by tagetLODs again searched before, 
+				//CandidateConstructor return candidate entities saved in targetMoelList
 			{
-				System.out.println("후보군 발견");
+				System.out.println("find candidate");
 				return targetModelList.get(i);
 			}
 		}
-		System.out.println("후보군 미발견 검색 시작");
+		System.out.println("Can't find candidate,start searching");
 		return makeCandidate(targetType,targetTypePredicate,predicateMatchinginfo,targetLOD);
 	}
 	
 	public TargetModel makeCandidate(String targetType,
 			String targetTypePredicate,ArrayList<PredicateMatchingInfo> predicateMatchinginfo,String targetLOD)
 	{
+		//Search candidate entities 
 		ArrayList<org.apache.jena.query.ResultSet> resultList=new ArrayList<org.apache.jena.query.ResultSet>();
 		Search searcher=new Searcher();
 		String query;
 		int offset=0;
-		//Iterator itr=stateInformation.getSourceLabelList().iterator();
 		
-		query=makeSPARQL2(targetType,targetTypePredicate,predicateMatchinginfo);
+		query=makeSPARQL(targetType,targetTypePredicate,predicateMatchinginfo);
 
 		for(;;)
 		{
 		
 			String query2=query;
-			//String label=itr.next().toString();
-			//System.out.println(label);
 			query2=sparql(query2,offset);
-			//System.out.println(query2);
+			
+			
 			org.apache.jena.query.ResultSet results=searcher.executeQuery(query2, targetLOD);
 			if(results==null)
 			{
@@ -85,17 +89,17 @@ public class CandidateConstructor implements Constructor{
 		offset+=1000;
 		}
 		
-		Model tmpModel=makeCandidate(resultList);
+		Model tmpModel=extractCandidate(resultList);
 		TargetModel targetModel=new TargetModel(targetType,tmpModel,targetLOD);
 		this.targetModelList.add(targetModel);
 		searcher.close();
 		return targetModel;
 	}
 	
-	public String makeSPARQL2(String targetType,String targetTypePredicate,ArrayList<PredicateMatchingInfo> predicateMatchinginfo)
+	public String makeSPARQL(String targetType,String targetTypePredicate,ArrayList<PredicateMatchingInfo> predicateMatchinginfo)
 	{
 		
-		
+		//make sparql use topic and predicates mached in targetLOD's Link-Policy
 		String query="";
 		
 		
@@ -140,8 +144,9 @@ public class CandidateConstructor implements Constructor{
 		return sparqlQuery;
 	}
 	
-	public Model makeCandidate(ArrayList<org.apache.jena.query.ResultSet> tmp)
+	public Model extractCandidate(ArrayList<org.apache.jena.query.ResultSet> tmp)
 	{
+		//extract candidate entities subject used in objectComparison
 		this.uriList=new HashSet<String>(); 
 		Model model = ModelFactory.createDefaultModel();
 		String queryString="select distinct ?s where{?s ?p ?o}";

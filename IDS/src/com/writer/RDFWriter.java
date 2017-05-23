@@ -13,6 +13,10 @@ import org.apache.jena.shared.InvalidPropertyURIException;
 
 public class RDFWriter implements writer {
 	
+	/**
+	 * writer that write RDF data searched in targetLOD by in-depth searching
+	 */
+	
 	private String subject;
 	private Model model;
 	private Resource r;
@@ -31,7 +35,6 @@ public class RDFWriter implements writer {
 		
 		this.subject=subject;
 		surfaceUriList.put(subject,this.model.createResource(subject));
-		//System.out.println("주어 생성");
 	}
 	
 	
@@ -53,13 +56,13 @@ public class RDFWriter implements writer {
 	}
 	
 	@Override
-	public void writeFile()
+	public void writeFile(String filename)
 	{
 		FileWriter out = null;
 		try {
 			
-			System.out.println("RDF 기록");
-			out = new FileWriter("t아이언맨_4_0.nt");
+			System.out.println("write RDF");
+			out = new FileWriter(filename+".nt");
 
 			model.write(out,"N-TRIPLES");
 			
@@ -70,7 +73,7 @@ public class RDFWriter implements writer {
 		}
 		catch(InvalidPropertyURIException e)
 		{
-			System.out.println("에러");
+			System.out.println("writing error");
 		}
 	}
 	

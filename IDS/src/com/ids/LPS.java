@@ -15,17 +15,16 @@ import com.queue.Qnode;
 public class LPS implements IDSearcher{
 
 	/**
-	LPS(Link-Policy-Searching)
-	it is use Link-Policy yo search same entitys in target LOD
-	**/
+	 * LPS perform in-depth searching,using Link-Policy of target LODs that is registered in Link-Policy of source LOD
+	 */
 	
 	public Matcher linkPolicyMatcher;
 	public Constructor candidateConstructor;
 	public Comparison objectComparison;
 	
 	public Qnode qNode;
-	public Model linkPolicy;
-	public int similarity;
+	public Model linkPolicy;//Link-Policy of souce LOD
+	public double similarity;
 	
 	public void setQnode(Qnode qNode)
 	{
@@ -36,7 +35,7 @@ public class LPS implements IDSearcher{
 		this.linkPolicy=linkPolicy;
 	}
 	
-	public void setSimilarity(int similarity)
+	public void setSimilarity(double similarity)
 	{
 		this.similarity=similarity;
 	}
@@ -46,6 +45,8 @@ public class LPS implements IDSearcher{
 		this.linkPolicyMatcher=linkPolicyMatcher;
 		this.candidateConstructor=candidateConstructor;
 		this.objectComparison=objectComparison;
+		
+		//set linkPolicyMatcher, candidateConstructor and objectComparison
 	}
 	
 	@Override
@@ -53,9 +54,9 @@ public class LPS implements IDSearcher{
 		// TODO Auto-generated method stub
 		TargetModel targetCandidate=null;
 		
-		linkPolicyMatcher.setLinkPolicy(linkPolicy);//Set Link-Policy to use to linkPolicyMatcher
+		linkPolicyMatcher.setLinkPolicy(linkPolicy);//Set sourceLOD's Link-Policy
 		
-		
+	
 		
 		ArrayList<String> targetList=linkPolicyMatcher.getTargetList(qNode.getData().getSparqlEndpoint());	
 		//get target LOD List from Link-Policy linked with sourceLOD saved in Qnode 
@@ -64,39 +65,37 @@ public class LPS implements IDSearcher{
 		
 		
 		ArrayList<PredicateMatchingInfo> predicateMatchinginfo=null;
-		
 		for(int i=0; i<targetList.size(); i++)
 		{
 			
 			linkPolicyMatcher.setTargetLOD(targetList.get(i));
 			
 			if(!linkPolicyMatcher.checkTypeRestrction(qNode))
-			//check Topic Restriction Specification if this qNode's entity have topic registried in Link-Policy
 			{
-				System.out.println("fail Topic Restriction Specification");
+				System.out.println("Fail Topic Restriction Specification");
 				continue;
 			}
 			
+			//check Topic Restriction Specification if this qNode's entity have topic registried in Link-Policy
+			
 			linkPolicyMatcher.setPredicateMatchiginfo();
-			//get Predicate Matching Specification from Link-Policy
 			
 			for(int k=0; k<TripleInformation.getList().size(); k++)
 			{
 				linkPolicyMatcher.matchPredicate(TripleInformation.getList().get(k).getPredicate(),TripleInformation.getList().get(k).getObject(),targetList.get(i));
 			}			
-			//match predicate about sourceLOD using Link-Policy 
+			//match predicate about sourceLOD using Link-Policy
 			
 			predicateMatchinginfo=linkPolicyMatcher.getpredicateMatchinginfo();
 			//get targetLOD's predicate registried in Link-Policy and matched with sourceLOD's predicate
 			
 			targetCandidate=candidateConstructor.searchCandidate(linkPolicyMatcher.getTargetType(),linkPolicyMatcher.getTargetTypePredicate(),
 					linkPolicyMatcher.getpredicateMatchinginfo(),targetList.get(i));
-			//search candidate entities matched with topic in targetLOD
+			//search candidate entities that have topic and predicate matched with targetLOD's LinkPolicy in targetLOD
 			
 			this.objectComparison.compareWithCandidate(predicateMatchinginfo,targetCandidate,targetList.get(i), qNode.getData().getDepth(), 
 					qNode.getData().getsurfaceSearchUri(),parentString,similarity);
 			//compare object with sourceLOD and targetLOD's entities 
-			
 			
 		}
 	}

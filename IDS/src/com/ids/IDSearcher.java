@@ -10,5 +10,5 @@ public interface IDSearcher {
 	public void search();
 	public void setQnode(Qnode qNode);
 	public void setLinkPolicy(Model linkPolicy);
-	public void setSimilarity(int similarity);
+	public void setSimilarity(double similarity);
 }

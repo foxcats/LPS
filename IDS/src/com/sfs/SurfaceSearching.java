@@ -24,7 +24,7 @@ public class SurfaceSearching {
 		this.strFunc=new StringFunction();
 	}
 	
-	public void surfaceSearch(String sparqlQuery, String sparqlEndpoint,int depth,int similarity)
+	public void surfaceSearch(String sparqlQuery, String sparqlEndpoint,int depth,double similarity)
 	{
 		ArrayList<Uri> surfaceUriList=search(sparqlQuery,sparqlEndpoint,depth,similarity);
 		
@@ -40,7 +40,7 @@ public class SurfaceSearching {
 	}
 	
 	
-	public ArrayList<Uri> search(String sparqlQuery, String sparqlEndpoint,int depth,int similarity){
+	public ArrayList<Uri> search(String sparqlQuery, String sparqlEndpoint,int depth,double similarity){
 		
 		sparqlQuery=makeSparql(sparqlQuery);
 		

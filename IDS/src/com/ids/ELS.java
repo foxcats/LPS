@@ -63,7 +63,7 @@ public class ELS implements IDSearcher{
 	}
 
 	@Override
-	public void setSimilarity(int similarity) {
+	public void setSimilarity(double similarity) {
 		// TODO Auto-generated method stub
 		
 	}

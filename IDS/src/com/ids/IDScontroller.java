@@ -16,26 +16,31 @@ import com.writer.TripleAccumulator;
 public class IDScontroller {
 
 	/**
-	IDScontroller get class that perform In-depth searching from IDSFactory using method 'searchingInLOD'
+	IDScontroller get class that perform In-depth searching from IDSFactory
+	
 	**/
 	
 	public static Que IDSQueue=new Que(); //Queue for in-depth searching
 	
-	public LinkPolicyReader linkPolicyReader;//Reader for Link-Policy
+	public LinkPolicyReader linkPolicyReader; //Reader for Link-Policy
 	
 	private String surfaceUri;//SPARQL EndpPoint of SourceLOD ex) http://ko.dbpedia.org/sparql
-	private String sparql;//SPARQL Query
-	private int depth;//Depth to perform in-depth searhcing
-	private int similarity;//Similarity to compare object between sourceLOD and targetLOD
+	private String sparql;//SPARQL Query;
+	private int depth;//Depth for performing in-depth searhcing
+	private double similarity;//Similarity for comparing object between sourceLOD and targetLOD
+	private String filename;
 	
-
-	public IDScontroller(LinkPolicyReader linkPolicyReader, String surfaceUri,String sparql,int depth,int similarity)
+	private HashSet<String> targetLODs; //targetLODs used for searching in-depth searching is used for OntologySearching
+	
+	public IDScontroller(String filename,LinkPolicyReader linkPolicyReader, String surfaceUri,String sparql,int depth,double similarity)
 	{
+		this.filename=filename;
 		this.surfaceUri=surfaceUri;
 		this.sparql=sparql;
 		this.depth=depth;
-		this.similarity= (1-similarity);
+		this.similarity=(1-similarity);
 		this.linkPolicyReader=linkPolicyReader;
+		this.targetLODs= new HashSet<String>();
 	}
 	
 	public void searchingInLOD(IDSearcher IDS)
@@ -43,20 +48,21 @@ public class IDScontroller {
 	
 		Model linkpolicy=null;
 		HashSet<String> duplicationList=new HashSet<String>();
-		Search surfaceSearcher=new Searcher();//make a searcher to execute sparql query
-		SurfaceSearching surfaceSearch=new SurfaceSearching(surfaceSearcher);// start surface searching
-		surfaceSearch.surfaceSearch(sparql,surfaceUri,depth,similarity);//insert results of surface searching in queue
-	
+		Search surfaceSearcher=new Searcher();
+		SurfaceSearching surfaceSearch=new SurfaceSearching(surfaceSearcher);
+		surfaceSearch.surfaceSearch(sparql,surfaceUri,depth,similarity);
 		
-		UriFilter uriFilter=new UriFilter();//make UriFilter
-		TripleAccumulator trAccumulator=new TripleAccumulator();//make TripleAccumulator
+		//perform surfaceSearching whose LOD will become sourceLOD
+		
+		UriFilter uriFilter=new UriFilter();
+		TripleAccumulator trAccumulator=new TripleAccumulator();
 		int flag;
 		
 		while(!IDSQueue.isEmpty())
 		{
+			// perform in-depth searching by dequeuing queue node
 			
 			Qnode qNode=IDSQueue.deQueue();
-			//get Node from queue
 			
 			if((flag=uriFilter.checkNode(qNode))==0)
 			{
@@ -71,27 +77,34 @@ public class IDScontroller {
 			}
 			
 			showURI(qNode);
-			trAccumulator.writeRDF(qNode);//write Uri's info by rdf triple 
+			trAccumulator.writeRDF(qNode);
+			//write Uri's info to rdf triple 
 			
-			linkpolicy=this.linkPolicyReader.getLinkPolicy(qNode); //Read Link-Policy to be relevent about Uri's sparql endpoint
 			
-			if(linkpolicy==null)//if there are no Link-Policy matched, get next node in queue
+			linkpolicy=this.linkPolicyReader.getLinkPolicy(qNode);
+			
+			if(linkpolicy==null)
 			{
 				continue;
 			}
 			
+			//Read Link-Policy to be relevent about Uri's sparql endpoint
+			//if there are no Link-Policy matched, get next node in queue
+			
 			if(flag==1){
-				IDS.setLinkPolicy(linkpolicy); //set Link-Policy you read above
-				IDS.setQnode(qNode);//set qNode you read above
-				IDS.setSimilarity(similarity);//set similarity 
-				IDS.search();//start IDS(LPS, EPS or CLS
+				//perform in-depth searching
+				
+				IDS.setLinkPolicy(linkpolicy);
+				IDS.setQnode(qNode);
+				IDS.setSimilarity(similarity);
+				IDS.search();
 			}
+			
+			targetLODs.add(qNode.getData().getSparqlEndpoint());
 		}
 			
-		trAccumulator.writeFile();//output result
-		
-		
-		
+		trAccumulator.writeFile(filename);
+		trAccumulator.writeTargetLOD(targetLODs,surfaceUri);
 		
 	}
 	

@@ -1,10 +1,18 @@
 package com.writer;
 
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.HashSet;
+import java.util.Iterator;
+
 import org.apache.jena.query.QuerySolution;
 import org.apache.jena.query.ResultSet;
 import org.apache.jena.rdf.model.Model;
+import org.apache.jena.rdf.model.ModelFactory;
+import org.apache.jena.rdf.model.Property;
 import org.apache.jena.rdf.model.RDFNode;
 import org.apache.jena.rdf.model.Resource;
+import org.apache.jena.shared.InvalidPropertyURIException;
 
 import com.data.PODataList;
 import com.data.TripleInformation;
@@ -14,7 +22,11 @@ import com.searcher.Searcher;
 
 public class TripleAccumulator {
 	
-private writer rdfWriter;
+ /**
+  *  Accumulator accumulate URI info searched by in-depth searching, dequeuing in Queue
+  */
+	
+	private writer rdfWriter;
 	
 	public TripleAccumulator()
 	{
@@ -23,6 +35,9 @@ private writer rdfWriter;
 	
 	public void writeRDF(Qnode node)
 	{
+		
+		//write URI info searched in target LOD, using URI that is saved in Queue node dequeued
+		
 		TripleInformation.getList().clear();
 		TripleInformation.getSameAsList().clear();
 		int count=0;
@@ -42,6 +57,7 @@ private writer rdfWriter;
 			return;
 		}
 		
+		
 		for( ; sparqlResult.hasNext(); )
 		{
 			 QuerySolution soln = sparqlResult.nextSolution() ;
@@ -49,23 +65,22 @@ private writer rdfWriter;
 		     RDFNode object= soln.get("?o");
 		     
 		     if(predicate.toString().equals("http://www.w3.org/2002/07/owl#sameAs"))
-		    	  //sameAs에 해당하는 URI를 저장한다.
-		      {
+		     {
 		    	 TripleInformation.getSameAsList().add(object.toString());
-		      }
+		     }
+		     //save sameAs info used for ELS
 		     
 		     
 		     rdfWriter.makeRDF(node.getData().getsurfaceSearchUri(),predicate.toString(), object.toString());
-		     //System.out.println(predicate.toString()+" -----"+object.toString());
+		     
 		     
 		     TripleInformation.getList().add(new PODataList(predicate.toString(),object.toString()));
 		     count++;
 		  }
+		//search URI info in target LOD that is registered in Queue node dequeued
 		
 
 	    searcher.close();
-		
-	   // System.out.println("sameAsSize: "+stateInformation.getSameAsList().size()+"\n");
 		
 	}
 	
@@ -82,15 +97,47 @@ private writer rdfWriter;
 					
 	}
 	
-	public void writeFile()
+	public void writeFile(String filename)
 	{
-		rdfWriter.writeFile();
+		rdfWriter.writeFile(filename);
 	}
 	
 	public Model getModel()
 	{
 		rdfWriter.getModel().write(System.out);
 		return rdfWriter.getModel();
+	}
+	
+	public void writeTargetLOD(HashSet<String> targetLODs,String sourceLOD)
+	{
+		Model model=ModelFactory.createDefaultModel();
+		Resource subject=model.createResource(sourceLOD);
+		Property predicate=model.createProperty("http://linkpolicy.org/ontology/targetLOD");
+		
+		Iterator<String> itr=targetLODs.iterator();
+		
+		while(itr.hasNext())
+		{
+			String targetLOD=itr.next();
+			subject.addProperty(predicate, targetLOD);
+		}
+		
+		 FileWriter out = null;
+			try {
+				
+				out = new FileWriter("LODInfo.rdf");
+
+				model.write(out,"N-TRIPLES");
+				
+				out.close();
+				System.out.println("write LOD");
+			} catch (IOException e) {
+				
+			}
+			catch(InvalidPropertyURIException e)
+			{
+				System.out.println("writing Error");
+			}
 	}
 
 }

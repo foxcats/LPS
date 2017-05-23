@@ -9,16 +9,16 @@ public class Main {
 	public static void main(String[] args){
 		
 	
-		
 		LinkPolicyReader linkpolicyReader=new LinkPolicyReader();
-	
-		linkpolicyReader.readLinkPolicy("ko.dbpedia.org_linkPolicy");
 		// Read Link-Policy File
 		
-		IDScontroller IDS =new IDScontroller(linkpolicyReader,"http://ko.dbpedia.org/sparql", 
-				"select * where { ?s rdfs:label ?o FILTER regex(str(?o),\"아이언맨\")}",2,0);
+		linkpolicyReader.readLinkPolicy("ko.dbpedia.org_linkPolicy");
 		//make class of IDScontroller (LinkPolicyReader,Source-SPARQL EndPoint,SPARQL Query,Depth,Similarity)
-		IDS.searchingInLOD(new IDSFactory().getCLS());
+		
+		IDScontroller IDS =new IDScontroller("IronMan_3_1",linkpolicyReader,"http://ko.dbpedia.org/sparql", 
+				"select * where { ?s rdfs:label ?o FILTER regex(str(?o),\"아이언맨\")}",3,1);
+		
+		IDS.searchingInLOD(new IDSFactory().getLPS());
 		//Searching start(get Class from IDSFactory)
 	}
 

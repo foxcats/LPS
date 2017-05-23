@@ -20,14 +20,13 @@ public class LinkPolicyReader {
 	public void readLinkPolicy(String linkPolicyName)
 	{
 		 // create an empty model
-		
-		Model model = ModelFactory.createDefaultModel();
+		 Model model = ModelFactory.createDefaultModel();
 
-		model.read(linkPolicyName+".rdf"); //read Link-Policy
+		 model.read(linkPolicyName+".rdf");
+		 
+		 model.write(System.out, "RDF/XML-ABBREV"); //read Link-Policy
 		
-		model.write(System.out, "RDF/XML-ABBREV");
-		
-		this.linkPolicy=model;
+		 this.linkPolicy=model;
 	}
 	
 	public Model getLinkPolicy(Qnode qNode)
@@ -38,10 +37,11 @@ public class LinkPolicyReader {
 
 			model = ModelFactory.createDefaultModel();
 			model.read(getLinkPolicyName(qNode.getData().getSparqlEndpoint())+".rdf");
-			//make Link-Policy name using sparqlEndpoint by method getLinkPolicyName
-			//*Link-Plicy name is unified check readmd
 			System.out.println("Link-Policy:"+getLinkPolicyName(qNode.getData().getSparqlEndpoint()));
 		
+			//make Link-Policy name using sparqlEndpoint by method getLinkPolicyName
+			//*Link-Plicy name is unified check readmd
+			
 		}catch(org.apache.jena.riot.RiotNotFoundException e){
 			System.out.println("There are no Link-Policy");
 			return null;

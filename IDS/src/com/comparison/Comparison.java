@@ -11,7 +11,7 @@ import com.data.TargetModel;
 public interface Comparison {
 
 	public void compareWithCandidate(ArrayList<PredicateMatchingInfo> predicateMatchinginfo, TargetModel targetCandidate, String sparqlEndpoint, int depth, String surfaceSearchUri,
-			String parentURI,int similiarty);
+			String parentURI,double similiarty);
 
 	
 
