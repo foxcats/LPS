@@ -7,11 +7,11 @@ import java.util.List;
 
 public class PredicateMatchingInfo {
 
-	private String sourcePredicate;
-	private Hashtable<String,String> targetPredicateList;
-	private ArrayList<String> objectList;
+	private String sourcePredicate; //sourceLOD's predicate registered in link-Policy
+	private Hashtable<String,String> targetPredicateList;//targetLOD's predicate matched with sourceLOD's predicate
+	private ArrayList<String> objectList;//sourcePredicate's objectList
 	
-	private List<Double> scoreList;
+	private List<Double> scoreList; //save target entity's similarity scores
 	
 	private int sourcePredicateflag;
 	private int targetPredicateFalg;

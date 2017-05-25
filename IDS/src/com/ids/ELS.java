@@ -16,7 +16,8 @@ public class ELS implements IDSearcher{
 	
 	public String makeSparqlEndpoint(String tmp)
 	{
-		//sparqlEndPoint 생성
+		//Make SPARQL endpoint by uri address
+		
 		ArrayList<String> tmp_str=new ArrayList<String>();
 	
 		StringTokenizer st = new StringTokenizer(tmp,"/"); 
@@ -38,14 +39,13 @@ public class ELS implements IDSearcher{
 		for(int i=0; i<TripleInformation.getSameAsList().size(); i++)
 		{
 			
-			//rdfmaker에서 기록한 sameAs정보 활용
+			//Use sameAs info saved by TripleAccumulator
 			uri=TripleInformation.getSameAsList().get(i);
 			highUri=makeSparqlEndpoint(uri);
-			//검색할 uri의 sparqlEndpoint를 생성
+			//make SPARQL endpoint by uri that is sameAs uri
 			
-			//System.out.println(node.getData().getUri()+" "+"uri: "+uri+" highUri: "+highUri);
 			IDScontroller.IDSQueue.enQueue(new Uri(uri,highUri,depth,qNode.getData().getsurfaceSearchUri(),2,qNode.getData().getParentUri()));
-			//큐에 등록
+			//Enqueue uri with SPARQL endpoint created 
 		}
 		
 }

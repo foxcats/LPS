@@ -166,7 +166,7 @@ public class CandidateConstructor implements Constructor{
 			      num++;
 		 }
 		}
-		
+		/*
 		QueryExecution qexec = QueryExecutionFactory.create(query, model);
 		ResultSet results = qexec.execSelect();
 	
@@ -178,16 +178,16 @@ public class CandidateConstructor implements Constructor{
 		    }
 		
 		 
-		 qexec.close();
+		 qexec.close();*/
 		 return model;
 		//System.out.println(uriList.size());
 		
 	}
-	
+	/*
 	public  HashSet<String> getList()
 	{
 		return this.uriList;
-	}
+	}*/
 
 	
 	

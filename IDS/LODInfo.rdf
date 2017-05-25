@@ -1,0 +1,4 @@
+<http://ko.dbpedia.org/sparql> <http://linkpolicy.org/ontology/targetLOD> "http://fr.dbpedia.org/sparql" .
+<http://ko.dbpedia.org/sparql> <http://linkpolicy.org/ontology/targetLOD> "http://ko.dbpedia.org/sparql" .
+<http://ko.dbpedia.org/sparql> <http://linkpolicy.org/ontology/targetLOD> "http://it.dbpedia.org/sparql" .
+<http://ko.dbpedia.org/sparql> <http://linkpolicy.org/ontology/targetLOD> "http://es.dbpedia.org/sparql" .

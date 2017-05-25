@@ -16,7 +16,7 @@ public class Main {
 		//make class of IDScontroller (LinkPolicyReader,Source-SPARQL EndPoint,SPARQL Query,Depth,Similarity)
 		
 		IDScontroller IDS =new IDScontroller("IronMan_3_1",linkpolicyReader,"http://ko.dbpedia.org/sparql", 
-				"select * where { ?s rdfs:label ?o FILTER regex(str(?o),\"아이언맨\")}",3,1);
+				"select * where { ?s rdfs:label ?o FILTER regex(str(?o),\"아이언맨\")}",2,0.9);
 		
 		IDS.searchingInLOD(new IDSFactory().getLPS());
 		//Searching start(get Class from IDSFactory)

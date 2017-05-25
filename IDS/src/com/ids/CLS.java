@@ -6,6 +6,9 @@ import com.queue.Qnode;
 
 public class CLS implements IDSearcher{
 
+	/**
+	 * CLS perform LPS and EPS
+	 */
 	private IDSearcher lps;
 	private IDSearcher els;
 	
