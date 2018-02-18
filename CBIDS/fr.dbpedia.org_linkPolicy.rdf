@@ -1,0 +1,115 @@
+﻿<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://linkpolicy.org/ontology/">
+<rdf:Description rdf:about="http://fr.dbpedia.org/sparql">
+<j.0:linkpolicy rdf:parseType="Resource">
+<j.0:restrictPredicateMatch rdf:parseType="Resource">
+<j.0:preidcateMatching rdf:parseType="Resource">
+<j.0:targetPredicate>http://it.dbpedia.org/property/annouscita</j.0:targetPredicate>
+<j.0:predicateType>integer</j.0:predicateType >
+<j.0:sourcePredicate>http://fr.dbpedia.org/property/annéeDeSortie</j.0:sourcePredicate>
+</j.0:preidcateMatching>
+<j.0:preidcateMatching rdf:parseType="Resource">
+ <j.0:predicateType>string</j.0:predicateType >
+<j.0:targetPredicate>http://it.dbpedia.org/property/titolooriginale</j.0:targetPredicate>
+<j.0:targetPredicate>http://www.w3.org/2000/01/rdf-schema#label </j.0:targetPredicate>
+<j.0:sourcePredicate>http://fr.dbpedia.org/property/commonsTitre</j.0:sourcePredicate>
+<j.0:sourcePredicate>http://www.w3.org/2000/01/rdf-schema#label</j.0:sourcePredicate>
+<j.0:sourcePredicate>http://fr.dbpedia.org/property/titreOriginal</j.0:sourcePredicate>
+<j.0:sourcePredicate>http://fr.dbpedia.org/property/titre</j.0:sourcePredicate>
+</j.0:preidcateMatching>
+<j.0:sourceRistricType>http://dbpedia.org/ontology/Film</j.0:sourceRistricType>
+<j.0:sourceRestricPredicate>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</j.0:sourceRestricPredicate>
+<j.0:targetRestric rdf:parseType="Resource">
+<j.0:targetRistricType>http://dbpedia.org/ontology/Film</j.0:targetRistricType>
+<j.0:targetRistricPredicate>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</j.0:targetRistricPredicate>
+</j.0:targetRestric>
+</j.0:restrictPredicateMatch>
+<j.0:targetLinkPolicyAddress>IT_DBpedia_linkPolicy</j.0:targetLinkPolicyAddress>
+<j.0:targetLOD>http://it.dbpedia.org/sparql</j.0:targetLOD>
+</j.0:linkpolicy>
+
+<j.0:linkpolicy rdf:parseType="Resource">
+<j.0:restrictPredicateMatch rdf:parseType="Resource">
+<j.0:preidcateMatching rdf:parseType="Resource">
+<j.0:targetPredicate>http://ko.dbpedia.org/property/개봉</j.0:targetPredicate>
+<j.0:predicateType>integer</j.0:predicateType >
+<j.0:sourcePredicate>http://fr.dbpedia.org/property/annéeDeSortie</j.0:sourcePredicate>
+</j.0:preidcateMatching>
+<j.0:preidcateMatching rdf:parseType="Resource">
+<j.0:predicateType>string</j.0:predicateType >
+<j.0:targetPredicate>http://ko.dbpedia.org/property/원제/영제</j.0:targetPredicate>
+<j.0:targetPredicate>http://ko.dbpedia.org/property/원제</j.0:targetPredicate>
+<j.0:sourcePredicate>http://fr.dbpedia.org/property/commonsTitre</j.0:sourcePredicate>
+<j.0:sourcePredicate>http://www.w3.org/2000/01/rdf-schema#label</j.0:sourcePredicate>
+<j.0:sourcePredicate>http://fr.dbpedia.org/property/titreOriginal</j.0:sourcePredicate>
+<j.0:sourcePredicate>http://fr.dbpedia.org/property/titre</j.0:sourcePredicate>
+</j.0:preidcateMatching>
+<j.0:sourceRistricType>http://dbpedia.org/ontology/Film</j.0:sourceRistricType>
+<j.0:sourceRestricPredicate>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</j.0:sourceRestricPredicate>
+<j.0:targetRestric rdf:parseType="Resource">
+<j.0:targetRistricType>http://dbpedia.org/ontology/Film</j.0:targetRistricType>
+<j.0:targetRistricPredicate>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</j.0:targetRistricPredicate>
+</j.0:targetRestric>
+</j.0:restrictPredicateMatch>
+<j.0:targetLinkPolicyAddress>KO_DBpedia_linkPolicy</j.0:targetLinkPolicyAddress>
+<j.0:targetLOD>http://ko.dbpedia.org/sparql</j.0:targetLOD>
+</j.0:linkpolicy>
+
+<j.0:linkpolicy rdf:parseType="Resource">
+<j.0:restrictPredicateMatch rdf:parseType="Resource">
+<j.0:preidcateMatching rdf:parseType="Resource">
+<j.0:targetPredicate>http://es.dbpedia.org/property/año</j.0:targetPredicate>
+<j.0:targetPredicate>http://es.dbpedia.org/property/estreno</j.0:targetPredicate>
+<j.0:predicateType>integer</j.0:predicateType >
+<j.0:sourcePredicate>http://fr.dbpedia.org/property/annéeDeSortie</j.0:sourcePredicate>
+</j.0:preidcateMatching>
+<j.0:preidcateMatching rdf:parseType="Resource">
+<j.0:predicateType>string</j.0:predicateType >
+<j.0:targetPredicate>http://es.dbpedia.org/property/títuloOriginal</j.0:targetPredicate>
+<j.0:targetPredicate>http://www.w3.org/2000/01/rdf-schema#label </j.0:targetPredicate>
+<j.0:sourcePredicate>http://fr.dbpedia.org/property/commonsTitre</j.0:sourcePredicate>
+<j.0:sourcePredicate>http://www.w3.org/2000/01/rdf-schema#label</j.0:sourcePredicate>
+<j.0:sourcePredicate>http://fr.dbpedia.org/property/titreOriginal</j.0:sourcePredicate>
+<j.0:sourcePredicate>http://fr.dbpedia.org/property/titre</j.0:sourcePredicate>
+</j.0:preidcateMatching>
+<j.0:sourceRistricType>http://dbpedia.org/ontology/Film</j.0:sourceRistricType>
+<j.0:sourceRestricPredicate>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</j.0:sourceRestricPredicate>
+<j.0:targetRestric rdf:parseType="Resource">
+<j.0:targetRistricType>http://dbpedia.org/ontology/Film</j.0:targetRistricType>
+<j.0:targetRistricPredicate>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</j.0:targetRistricPredicate>
+</j.0:targetRestric>
+</j.0:restrictPredicateMatch>
+<j.0:targetLinkPolicyAddress>ES_DBpedia_linkPolicy</j.0:targetLinkPolicyAddress>
+<j.0:targetLOD>http://es.dbpedia.org/sparql</j.0:targetLOD>
+</j.0:linkpolicy>
+
+<j.0:linkpolicy rdf:parseType="Resource">
+<j.0:restrictPredicateMatch rdf:parseType="Resource">
+<j.0:preidcateMatching rdf:parseType="Resource">
+<j.0:targetPredicate>http://pt.dbpedia.org/property/ano</j.0:targetPredicate>
+<j.0:predicateType>integer</j.0:predicateType >
+<j.0:sourcePredicate>http://fr.dbpedia.org/property/annéeDeSortie</j.0:sourcePredicate>
+</j.0:preidcateMatching>
+<j.0:preidcateMatching rdf:parseType="Resource">
+<j.0:predicateType>string</j.0:predicateType >
+<j.0:targetPredicate>http://pt.dbpedia.org/property/nome</j.0:targetPredicate>
+<j.0:targetPredicate>http://pt.dbpedia.org/property/título</j.0:targetPredicate>
+<j.0:targetPredicate>http://www.w3.org/2000/01/rdf-schema#label</j.0:targetPredicate>
+<j.0:sourcePredicate>http://fr.dbpedia.org/property/commonsTitre</j.0:sourcePredicate>
+<j.0:sourcePredicate>http://www.w3.org/2000/01/rdf-schema#label</j.0:sourcePredicate>
+<j.0:sourcePredicate>http://fr.dbpedia.org/property/titreOriginal</j.0:sourcePredicate>
+<j.0:sourcePredicate>http://fr.dbpedia.org/property/titre</j.0:sourcePredicate>
+</j.0:preidcateMatching>
+<j.0:sourceRistricType>http://dbpedia.org/ontology/Film</j.0:sourceRistricType>
+<j.0:sourceRestricPredicate>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</j.0:sourceRestricPredicate>
+<j.0:targetRestric rdf:parseType="Resource">
+<j.0:targetRistricType>http://dbpedia.org/ontology/Film</j.0:targetRistricType>
+<j.0:targetRistricPredicate>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</j.0:targetRistricPredicate>
+</j.0:targetRestric>
+</j.0:restrictPredicateMatch>
+<j.0:targetLinkPolicyAddress>PT_DBpedia_linkPolicy</j.0:targetLinkPolicyAddress>
+<j.0:targetLOD>http://pt.dbpedia.org/sparql</j.0:targetLOD>
+</j.0:linkpolicy>
+</rdf:Description>
+</rdf:RDF>

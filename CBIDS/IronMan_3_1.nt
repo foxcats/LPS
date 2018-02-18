@@ -1,0 +1,378 @@
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/piste> "Mark II@fr" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/thumbnail> "http://pt.wikipedia.org/wiki/Special:FilePath/Iron_Man_poster.jpg?width=300" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/música> "http://pt.dbpedia.org/resource/Ramin_Djawadi" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://www.w3.org/2000/01/rdf-schema#comment> "«Железный человек» (англ. Iron Man) — научно-фантастический боевик 2008 года, рассказывающий о приключениях одноимённого персонажа комиксов компании Marvel. Фильм снят Marvel Studios под руководством Джона Фавро, а роль главного героя — Тони Старка, промышленника и гениального изобретателя, разработавшего экзоскелет для побега из плена и позже ставшего супергероем по имени Железный человек, исполнил Роберт Дауни-младший.@ru" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/roteiro> "Hawk Ostby@pt" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/roteiro> "Matt Holloway@pt" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/piste> "Institutionalized@fr" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://ko.dbpedia.org/property/wikiPageUsesTemplate> "http://ko.dbpedia.org/resource/틀:Allmovie_title" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/musicComposer> "http://ko.dbpedia.org/resource/라민_자와디" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://purl.org/dc/terms/subject> "http://ko.dbpedia.org/resource/분류:마블_코믹스의_영화_작품" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://purl.org/dc/terms/subject> "http://ko.dbpedia.org/resource/분류:아이언맨_영화" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://ko.dbpedia.org/property/제작> "http://ko.dbpedia.org/resource/아비_아라드" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://purl.org/dc/terms/subject> "http://pt.dbpedia.org/resource/Categoria:Universo_Cinematográfico_Marvel" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/abstract> "《아이언맨》(영어: Iron Man)은 2008년에 개봉한 미국 만화책 회사인 마블 코믹스의 캐릭터 아이언맨을 원작으로 하여 만들어진 슈퍼히어로 액션 영화이다. 마블 시네마틱 유니버스를 기반으로 한 첫 영화이자 마블 스튜디오에서 제작한 첫 번째 영화다. 감독은 존 패브로이다.억만장자 사업가이자 천재 공학자인 토니 스타크가 아이언맨이라 불리는 무장 슈트를 만들어 평화를 지키기 위해 노력하는 이야기이다.@ko" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/country> "http://fr.dbpedia.org/resource/États-Unis" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://ko.dbpedia.org/property/편집> "http://ko.dbpedia.org/resource/글렌_스캔틀버리" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/starring> "http://fr.dbpedia.org/resource/Robert_Downey_Jr." .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/piste> "Vacation's Over@fr" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://purl.org/dc/terms/subject> "http://fr.dbpedia.org/resource/Catégorie:Film_de_science-fiction_américain" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://purl.org/dc/terms/subject> "http://pt.dbpedia.org/resource/Categoria:Filmes_de_Jon_Favreau" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/starring> "http://pt.dbpedia.org/resource/Gwyneth_Paltrow" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/imdbId> "371746^^http://www.w3.org/2001/XMLSchema#integer" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/roteiro> "Mark Fergus@pt" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/wikiPageUsesTemplate> "http://fr.dbpedia.org/resource/Modèle:Lang" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/starring> "http://fr.dbpedia.org/resource/Gwyneth_Paltrow" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://purl.org/dc/elements/1.1/title> "Iron Man" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://purl.org/dc/terms/subject> "http://ko.dbpedia.org/resource/분류:존_파브로_감독_영화" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://purl.org/dc/terms/subject> "http://fr.dbpedia.org/resource/Catégorie:Film_tourné_à_Long_Beach_(Californie)" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/wikiPageRevisionID> "110899501^^http://www.w3.org/2001/XMLSchema#integer" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/distributor> "http://ko.dbpedia.org/resource/패러마운트_픽쳐스" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/temps> "73.0^^http://dbpedia.org/datatype/second" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/thumbnail> "http://commons.wikimedia.org/wiki/Special:FilePath/Iron_Man_Mark_1,_2,_3.jpg?width=300" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/starring> "http://fr.dbpedia.org/resource/Terrence_Howard" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://www.w3.org/ns/prov#wasDerivedFrom> "http://ko.wikipedia.org/wiki/아이언맨_(영화)?oldid=14331096" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://ko.dbpedia.org/property/주연> "http://ko.dbpedia.org/resource/제프_브리지스" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/writer> "http://ko.dbpedia.org/resource/호크_오츠비" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/piste> "Iron Monger@fr" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://www.w3.org/2000/01/rdf-schema#comment> "Iron Man (titulada Iron Man: el hombre de hierro en Hispanoamérica) es una película de superhéroes basada en el personaje homónimo de Marvel Comics y estrenada en 2008. Dirigida por Jon Favreau, la película contó con el actor Robert Downey, Jr. como Tony Stark, un empresario millonario e ingeniero maestro que construye un poderoso exoesqueleto y que con la ayuda de éste se convierte en un superhéroe tecnológicamente avanzado, Iron Man.@es" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/writer> "http://fr.dbpedia.org/resource/John_August" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/production> "http://fr.dbpedia.org/resource/Marvel_Studios" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.wikidata.org/entity/Q386724" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://ko.dbpedia.org/property/wikiPageUsesTemplate> "http://ko.dbpedia.org/resource/틀:마블_코믹스_영화" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://ko.dbpedia.org/property/제목> "아이언 맨@ko" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/wikiPageUsesTemplate> "http://pt.dbpedia.org/resource/Predefinição:Imdb_título" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/idioma> "http://pt.dbpedia.org/resource/Língua_inglesa" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/director> "http://pt.dbpedia.org/resource/Jon_Favreau" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://xmlns.com/foaf/0.1/depiction> "http://commons.wikimedia.org/wiki/Special:FilePath/Iron_Man_Mark_1,_2,_3.jpg" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/temps> "104.0^^http://dbpedia.org/datatype/second" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/ano> "2008^^http://www.w3.org/2001/XMLSchema#integer" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/piste> "Fireman@fr" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://purl.org/dc/terms/subject> "http://pt.dbpedia.org/resource/Categoria:Filmes_em_língua_inglesa" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/wikiPageUsesTemplate> "http://fr.dbpedia.org/resource/Modèle:Unité" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://ko.dbpedia.org/property/주연> "http://ko.dbpedia.org/resource/귀네스_팰트로" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/abstract> "아이언 맨(Iron Man)은 2008년에 개봉한 미국 만화책 회사인 마블 코믹스의 캐릭터 아이언맨을 원작으로 하여 만들어진 슈퍼히어로 액션 영화이다. 마블 시네마틱 유니버스를 기반으로 한 첫 영화이자 마블 스튜디오에서 제작한 첫 번째 영화다. 감독은 존 패브로이다.억만장자 사업가이자 천재 공학자인 토니 스타크가 아이언맨이라 불리는 무장 슈트를 만들어 평화를 지키기 위해 노력하는 이야기이다.@ko" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/wikiPageUsesTemplate> "http://pt.dbpedia.org/resource/Predefinição:Info/Filme" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/wikiPageLength> "3366^^http://www.w3.org/2001/XMLSchema#integer" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://ko.dbpedia.org/property/wikiPageUsesTemplate> "http://ko.dbpedia.org/resource/틀:존_패브로" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/scénario> "John August ()@fr" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/tipo> "LF@pt" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/writer> "http://ko.dbpedia.org/resource/마크_퍼거스" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://purl.org/dc/terms/subject> "http://pt.dbpedia.org/resource/Categoria:Filmes_de_super-heróis" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/wikiPageOutDegree> "153^^http://www.w3.org/2001/XMLSchema#nonNegativeInteger" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://purl.org/dc/terms/subject> "http://pt.dbpedia.org/resource/Categoria:Filmes_ambientados_em_Los_Angeles" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://www.w3.org/2000/01/rdf-schema#comment> "Iron Man is een Amerikaanse superheldenfilm gebaseerd op de Marvel Comics-superheld Iron Man. De productie stond onder regie van Jon Favreau en ging op 14 april 2008 in Sydney in wereldpremière.Iron Man werd genomineerd voor Academy Awards voor de beeld- en de geluidsweergave.@nl" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/elenco> "http://pt.dbpedia.org/resource/Shaun_Toub" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/writer> "http://fr.dbpedia.org/resource/Matt_Holloway" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://www.w3.org/2000/01/rdf-schema#comment> "『アイアンマン』（英: Iron Man）は、2008年のアメリカ映画。主演はロバート・ダウニー・Jr。@ja" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://dbpedia.org/ontology/Work" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/editing> "http://ko.dbpedia.org/resource/글렌_스캔틀버리" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/wikiPageUsesTemplate> "http://fr.dbpedia.org/resource/Modèle:Infobox_Cinéma_(film)" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://purl.org/dc/terms/subject> "http://pt.dbpedia.org/resource/Categoria:Filmes_da_Paramount_Pictures" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/wikiPageUsesTemplate> "http://fr.dbpedia.org/resource/Modèle:Références" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/criaçãoOriginal> "Homem de Ferro de@pt" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/wikiPageRevisionID> "44928449^^http://www.w3.org/2001/XMLSchema#integer" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/wikiPageOutDegree> "158^^http://www.w3.org/2001/XMLSchema#nonNegativeInteger" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://xmlns.com/foaf/0.1/name> "Iron Man@fr" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://xmlns.com/foaf/0.1/name> "Iron Man@pt" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/produção> "http://pt.dbpedia.org/resource/Kevin_Feige" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/acteur> "http://fr.dbpedia.org/resource/Gwyneth_Paltrow" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/wikiPageUsesTemplate> "http://fr.dbpedia.org/resource/Modèle:Titre_en_italique" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/elenco> "http://pt.dbpedia.org/resource/Robert_Downey,_Jr." .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/wikiPageUsesTemplate> "http://pt.dbpedia.org/resource/Predefinição:BRAb" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://purl.org/dc/terms/subject> "http://ko.dbpedia.org/resource/분류:미국의_SF_액션_영화" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/temps> "285.0^^http://dbpedia.org/datatype/second" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/lançamento> "1^^http://www.w3.org/2001/XMLSchema#integer" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/temps> "190.0^^http://dbpedia.org/datatype/second" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/temps> "229.0^^http://dbpedia.org/datatype/second" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://www.w3.org/2000/01/rdf-schema#label> "Iron Man (2008 film)@en" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/distributor> "http://pt.dbpedia.org/resource/Paramount_Pictures" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://purl.org/dc/terms/subject> "http://ko.dbpedia.org/resource/분류:2008년_영화" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/produção> "Avi Arad@pt" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/wikiPageUsesTemplate> "http://fr.dbpedia.org/resource/Modèle:Monde" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/cinematography> "http://pt.dbpedia.org/resource/Matthew_Libatique" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/genre> "http://fr.dbpedia.org/resource/Film_d'action" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/temps> "234.0^^http://dbpedia.org/datatype/second" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://ko.dbpedia.org/property/각본> "http://ko.dbpedia.org/resource/마크_퍼거스" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/budget> "140000.0^^http://dbpedia.org/datatype/usDollar" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://www.w3.org/2000/01/rdf-schema#comment> "Iron Man adalah sebuah film yang berdasarkan tokoh Marvel Comics Iron Man. Film ini disutradarai oleh Jon Favreau dan dibintangi Robert Downey Jr., Gwyneth Paltrow, Terrence Howard, dan Jeff Bridges. Film ini dirilis pada 2 Mei 2008 di Amerika Serikat.@id" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://purl.org/dc/terms/subject> "http://ko.dbpedia.org/resource/분류:마블_시네마틱_유니버스_영화" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/wikiPageOutDegree> "77^^http://www.w3.org/2001/XMLSchema#integer" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/starring> "http://fr.dbpedia.org/resource/Jeff_Bridges" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/durée> "3254.0^^http://dbpedia.org/datatype/second" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://ko.dbpedia.org/property/주연> "http://ko.dbpedia.org/resource/라민_자와디" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://www.w3.org/2000/01/rdf-schema#label> "Железный человек (фильм)@ru" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/elenco> "http://pt.dbpedia.org/resource/Terrence_Howard" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://www.w3.org/2000/01/rdf-schema#label> "Iron Man (Film)@de" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/lançamento> "2^^http://www.w3.org/2001/XMLSchema#integer" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/wikiPageUsesTemplate> "http://pt.dbpedia.org/resource/Predefinição:Revelações_sobre_o_enredo" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://www.w3.org/2000/01/rdf-schema#label> "Iron Man (film)@it" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/musicComposer> "http://pt.dbpedia.org/resource/Ramin_Djawadi" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/piste> "Are Those Bullet Holes ?@fr" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/scénario> "http://fr.dbpedia.org/resource/Art_Marcum" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/temps> "65.0^^http://dbpedia.org/datatype/second" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/temps> "154.0^^http://dbpedia.org/datatype/second" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/wikiPageUsesTemplate> "http://fr.dbpedia.org/resource/Modèle:Référence_nécessaire" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://purl.org/dc/terms/subject> "http://pt.dbpedia.org/resource/Categoria:Filmes_baseados_em_histórias_em_quadrinhos_da_Marvel_Comics" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/abstract> "Iron Man (no Brasil e em Portugal, Homem de Ferro) é um filme americano de 2008, baseado no personagem de mesmo nome da Marvel Comics. Dirigido por Jon Favreau, o filme é estrelado por Robert Downey Jr. como Tony Stark, presidente das \\\"Indústrias Stark\\\" que constrói uma armadura superpoderosa e se torna um super-herói tecnologicamente avançado, o Homem de Ferro. Gwyneth Paltrow interpreta a sua assistente pessoal, Pepper Potts, Terrence Howard interpreta o comandante militar James Rhodes e Jeff Bridges interpreta o executivo das Indústrias Stark Obadiah Stane. O filme estava em desenvolvimento desde 1990 na Universal Studios, 20th Century Fox e New Line Cinema, antes da Marvel Studios adquirir os direitos em 2006. Favreau assinou contrato para ser o diretor, dizendo que ia dar um toque de realismo ao filme, escolhendo filmar o filme principalmente na Califórnia. Durante as filmagens, os atores estavam livres para criar seus próprios diálogos, porque a pré-produção estava voltada para história e ação. Versões da armadura em borracha e metal, criadas pela empresa de Stan Winston, foram misturadas com imagens geradas por computador para gerar o personagem-título. As críticas foram muito positivas, principalmente elogiando o desempenho de Downey. O American Film Institute selecionou o filme como um dos dez melhores do ano. Downey, Favreau e Paltrow retornaram na sequência Homem de Ferro 2, lançado em 7 de maio de 2010. Outra continuação do filme, Homem de Ferro 3 estreou em 2013, com Downey reprisando o papel de Tony Stark. Downey também fez uma aparição como Stark em O Incrível Hulk. O filme abre o Universo Marvel Cinematográfico, com a Fase 1: Avante Vingadores.@pt" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/abstract> "A Vasember (Iron Man) 2008-ban bemutatott szuperhős-film a Marvel Comics Vasember-képregényei alapján, melynek bemutatója világszerte, köztük Magyarországon is 2008. április 30-án volt. A Jon Favreau rendezésében készült filmben Tony Starkot (Robert Downey Jr.), a milliárdos fegyvergyárost terroristák ejtik foglyul Afganisztánban. Rakéta összeszerelésére kényszerítik, azonban Stark a rendelkezésre álló eszközökből páncélzatot épít magának a szökéshez. A fogságban szembesül a saját cége gyártmányai okozta pusztítással. Amerikába visszatérve továbbfejleszti művét, s a technológiára támaszkodó szuperhős, Vasember válik belőle, aki az ellen kezd harcolni, aminek azelőtt maga is vezető képviselője volt. Gwyneth Paltrow játssza személyi asszisztensét, Pepper Pottst, Terrence Howard látható a vadászgép-pilóta James Rhodes szerepében, a gonosz Obadiah Stane-t pedig Jeff Bridges alakítja.A film kritikái kedvezőnek bizonyulnak, kiemelten dicsérve Downey játékát, így Stark/Vasember története több más filmben folytatódott. A színészek további két részre szerződtek (amelyekben Favreau Stark alkoholizmusának ábrázolását, Rhodes Hadigéppé válását és a gonosztevő Mandarint tervezték bemutatni, a két rész azóta elkészült; sőt, Downey Vasember szerepében több más Marvel-adaptációjában is feltűnt (2008 nyara: a Hihetetlen Hulk, ezután a 2012-es Bosszúállókban).@hu" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/annéeDeSortie> "2008^^http://www.w3.org/2001/XMLSchema#integer" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://ko.dbpedia.org/property/원제> "Iron Man@ko" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/label> "http://fr.dbpedia.org/resource/Lions_Gate_Film" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://ko.dbpedia.org/property/wikiPageUsesTemplate> "http://ko.dbpedia.org/resource/틀:Lang" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://xmlns.com/foaf/0.1/name> "Homem de Ferro@pt" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/abstract> "Iron Man (no Brasil e em Portugal, Homem de Ferro) é um filme americano de 2008, baseado no personagem de mesmo nome da Marvel Comics. Dirigido por Jon Favreau, o filme é estrelado por Robert Downey Jr. como Tony Stark, presidente das \\\"Indústrias Stark\\\" que constrói uma armadura superpoderosa e se torna um super-herói tecnologicamente avançado, o Homem de Ferro. Gwyneth Paltrow interpreta a sua assistente pessoal, Pepper Potts, Terrence Howard interpreta o comandante militar James Rhodes e Jeff Bridges interpreta o executivo das Indústrias Stark Obadiah Stane.O filme estava em desenvolvimento desde 1990 na Universal Studios, 20th Century Fox e New Line Cinema, antes da Marvel Studios adquirir os direitos em 2006. Favreau assinou contrato para ser o diretor, dizendo que ia dar um toque de realismo ao filme, escolhendo filmar o filme principalmente na Califórnia. Durante as filmagens, os atores estavam livres para criar seus próprios diálogos, porque a pré-produção estava voltada para história e ação. Versões da armadura em borracha e metal, criadas pela empresa de Stan Winston, foram misturadas com imagens geradas por computador para gerar o personagem-título. As críticas foram muito positivas, principalmente elogiando o desempenho de Downey. O American Film Institute selecionou o filme como um dos dez melhores do ano. Downey, Favreau e Paltrow retornaram na sequência Homem de Ferro 2, lançado em 7 de maio de 2010. Downey também fez uma aparição como Stark em O Incrível Hulk e está programado para aparecer na cruzada de super-heróis Os Vingadores. Outra continuação do filme, Homem de Ferro 3 está prevista para estrear em 2013, com Downey reprisando o papel de Tony Stark.O filme abre o Universo Marvel Cinematográfico, com a Fase 1: Avante Vingadores.@pt" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/piste> "Iron Man@fr" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/seguidoPor> "Homem de Ferro 2@pt" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://xmlns.com/foaf/0.1/name> "Iron Man@ko" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/wikiPageExternalLink> "http://www.dailymotion.com/relevance/search/Iron+Man+Teaser+Trailer/video/x2y2gf_iron-man-teaser-trailer_shortfilms" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/piste> "Golden Egg@fr" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://xmlns.com/foaf/0.1/homepage> "http://www.ironmanmovie.com/" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/producer> "http://ko.dbpedia.org/resource/케빈_파이기" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/id> "371746^^http://www.w3.org/2001/XMLSchema#integer" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://ko.dbpedia.org/property/각본> "아트 마컴@ko" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://purl.org/dc/terms/subject> "http://ko.dbpedia.org/resource/분류:수퍼히어로_영화" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/writer> "http://fr.dbpedia.org/resource/Art_Marcum" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://www.w3.org/2000/01/rdf-schema#comment> "Iron Man (2008) je americký komiksový film. Hlavním hrdinou je komiksový hrdina Iron Man.@cs" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://ko.dbpedia.org/property/wikiPageUsesTemplate> "http://ko.dbpedia.org/resource/틀:Rotten-tomatoes" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/piste> "Mark I@fr" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://ko.dbpedia.org/property/제작> "http://ko.dbpedia.org/resource/케빈_파이기" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/starring> "http://pt.dbpedia.org/resource/Shaun_Toub" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/thumbnailCaption> "Les trois armures du film." .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/estúdio> "http://pt.dbpedia.org/resource/Marvel_Studios" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://purl.org/dc/terms/subject> "http://ko.dbpedia.org/resource/분류:존_패브로_감독_영화" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/wikiPageUsesTemplate> "http://fr.dbpedia.org/resource/Modèle:Belgique" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://ko.dbpedia.org/property/주연> "http://ko.dbpedia.org/resource/로버트_다우니_주니어" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/elenco> "http://pt.dbpedia.org/resource/Gwyneth_Paltrow" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/subtitle> "Pôster de divulgação." .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/wikiPageUsesTemplate> "http://pt.dbpedia.org/resource/Predefinição:Homem_de_Ferro" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://www.w3.org/2000/01/rdf-schema#comment> "Iron Man is a 2008 American superhero film based on the Marvel Comics character of the same name, produced by Marvel Studios and distributed by Paramount Pictures. It is the first installment in the Marvel Cinematic Universe. Directed by Jon Favreau and written by Mark Fergus and Hawk Ostby, Art Marcum and Matt Holloway, the film stars Robert Downey, Jr., Terrence Howard, Jeff Bridges, Shaun Toub and Gwyneth Paltrow.@en" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://ko.dbpedia.org/property/주연> "http://ko.dbpedia.org/resource/테런스_하워드" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/abstract> "Железният човек (на английски: Iron Man) е американски филм от 2008 година, базиран на едноименния герой на Марвел Комикс.@bg" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/director> "http://fr.dbpedia.org/resource/Jon_Favreau" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/wikiPageUsesTemplate> "http://fr.dbpedia.org/resource/Modèle:Imdb_titre" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://www.w3.org/2000/01/rdf-schema#comment> "《아이언맨》(영어: Iron Man)은 2008년에 개봉한 미국 만화책 회사인 마블 코믹스의 캐릭터 아이언맨을 원작으로 하여 만들어진 슈퍼히어로 액션 영화이다. 마블 시네마틱 유니버스를 기반으로 한 첫 영화이자 마블 스튜디오에서 제작한 첫 번째 영화다. 감독은 존 패브로이다.억만장자 사업가이자 천재 공학자인 토니 스타크가 아이언맨이라 불리는 무장 슈트를 만들어 평화를 지키기 위해 노력하는 이야기이다.@ko" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.w3.org/2002/07/owl#Thing" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://purl.org/dc/terms/subject> "http://pt.dbpedia.org/resource/Categoria:Filmes_premiados_com_o_Prémio_Saturno" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://www.w3.org/ns/prov#wasDerivedFrom> "http://ko.wikipedia.org/wiki/아이언맨_(영화)?oldid=12043878" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://www.w3.org/2000/01/rdf-schema#label> "Iron Man (pel·lícula)@ca" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/títuloPt> "Homem de Ferro@pt" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/artiste> "http://fr.dbpedia.org/resource/Ramin_Djawadi" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://purl.org/dc/terms/subject> "http://pt.dbpedia.org/resource/Categoria:Filmes_de_ação_dos_Estados_Unidos" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/wikiPageUsesTemplate> "http://pt.dbpedia.org/resource/Predefinição:Referências" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/country> "http://pt.dbpedia.org/resource/Estados_Unidos" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/cinematografia> "http://pt.dbpedia.org/resource/Matthew_Libatique" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/produçãoExecutiva> "Ari Arad@pt" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://www.w3.org/2000/01/rdf-schema#label> "Iron Man (film)@id" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/starring> "http://pt.dbpedia.org/resource/Terrence_Howard" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://ko.dbpedia.org/property/wikiPageUsesTemplate> "http://ko.dbpedia.org/resource/틀:Llang" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://purl.org/dc/terms/subject> "http://fr.dbpedia.org/resource/Catégorie:Film_se_déroulant_à_Los_Angeles" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://purl.org/dc/terms/subject> "http://ko.dbpedia.org/resource/분류:라스베이거스를_무대로_한_영화" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://www.w3.org/2000/01/rdf-schema#label> "Iron Man (film, 2008)@cs" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/wikiPageExternalLink> "http://www.dvdrama.com/news-26038-cine-iron-man.php" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#InformationEntity" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/acteur> "http://fr.dbpedia.org/resource/Terrence_Howard" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://ko.dbpedia.org/property/감독> "http://ko.dbpedia.org/resource/존_패브로" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://xmlns.com/foaf/0.1/depiction> "http://pt.wikipedia.org/wiki/Special:FilePath/Iron_Man_poster.jpg" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/abstract> "Iron Man – amerykański film akcji w reżyserii Jona Favreau z 2008. Film jest oparty na serii komiksów o Iron Manie – postaci komiksowej stworzonej przez Stana Lee, Larry’ego Liebera, Jacka Kirby’ego i Dona Hecka. Film jest pierwszą częścią inicjatywy Marvel Cinematic Universe oraz pierwszym filmem z serii Iron Man. Jego kontynuacja (Iron Man 2) pojawiła się 2 lata później a trzecia część (Iron Man 3) 5 lat później.Głównym bohaterem filmu jest grany przez Roberta Downeya, Jr. Tony Stark - przemysłowiec i genialny inżynier, który w trakcie filmu buduje egzoszkielet wspomagany i zostaje superbohaterem Iron Manem. Gwyneth Paltrow wciela się w rolę jego osobistej asystentki Pepper Potts, Terrence Howard gra oficera łącznikowego Jamesa Rhodesa, a Jeff Bridges gra dyrektora Stark Industries Obadiaha Stane`a.Film znajdował się we wstępnej fazie rozwoju od 1990 w wytwórniach Universal Pictures, 20th Century Fox i New Line Cinema, zanim Marvel Studios odzyskało prawa do niego w 2006. Marvel rozwinął projekt do fazy produkcji jako ich pierwszy film w pełni finansowany przez firmę. Paramount Pictures został dystrybutorem. Favreau podjął się reżyserowania i wybrał Kalifornię jako główne miejsce kręcenia filmu. Odrzucił Wschodnie Wybrzeże USA by odróżnić się od wielu filmów o superbohaterach, które kręcone były w podobnym do Nowego Jorku sceneriach. W czasie kręcenia aktorzy mieli wolną rękę w kreacji swoich bohaterów i dialogów, ponieważ nacisk stawiano na opowiadaną historię i akcję. Gumowe i metalowe wersje pancerzy, stworzone przez firmę Stana Winstona, zostały przetworzone w ramach efektów specjalnych by stworzyć tytułowego bohatera. Hasbro i Sega sprzedawały różne przedmioty związane z filmem, a umowy dotyczące product placementu podpisano z Audi, Burger Kingiem, LG i 7-Eleven. Recenzje były pozytywne, szczególnie chwalące występ Downeya. Amerykański Instytut Filmowy wybrał film jako jeden z dziesięciu najlepszych roku. Downey, Favreau i Paltrow byli także zaangażowani w stworzenie sequelu Iron Man 2, który został opublikowany w 2010. Downey miał także rolę cameo w filmie The Incredible Hulk oraz wystąpił w 2012 w filmie The Avengers. Po raz piąty Downey wystąpił w roli Starka w filmie Iron Man 3, którego wyświetlanie rozpoczęto 3 maja 2013.@pl" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://ko.dbpedia.org/property/wikiPageUsesTemplate> "http://ko.dbpedia.org/resource/틀:영화_정보" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://ko.dbpedia.org/property/wikiPageUsesTemplate> "http://ko.dbpedia.org/resource/틀:Commonscat" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://www.w3.org/2000/01/rdf-schema#comment> "Iron Man è un film del 2008 diretto da Jon Favreau e interpretato da Robert Downey Jr., basato sul personaggio dei fumetti della Marvel Comics Iron Man, creato da Stan Lee, Jack Kirby, Larry Lieber e Don Heck. Alla stesura della sceneggiatura, scritta da Mark Fergus, Hawk Ostby, Art Marcum e Matt Holloway, hanno partecipato anche i fumettisti Joe Quesada, Brian Michael Bendis, Mark Millar, Ralph Macchio, Tom Brevoort e Axel Alonzo. La scena-cameo di Nick Fury (Samuel L.@it" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/productionEndYear> "2008^^http://www.w3.org/2001/XMLSchema#gYear" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/language> "http://ko.dbpedia.org/resource/영어" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://purl.org/dc/terms/subject> "http://pt.dbpedia.org/resource/Categoria:Filmes_ambientados_no_Afeganistão" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/wikiPageUsesTemplate> "http://fr.dbpedia.org/resource/Modèle:Voir_homonymie" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/website> "http://www.ironmanmovie.com/" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://purl.org/dc/terms/subject> "http://ko.dbpedia.org/resource/분류:로스앤젤레스를_무대로_한_영화" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://ko.dbpedia.org/property/제작비> "1^^http://www.w3.org/2001/XMLSchema#integer" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/imagemLegenda> "Pôster de divulgação.@pt" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/roteiro> "Art Marcum@pt" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/temps> "213.0^^http://dbpedia.org/datatype/second" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/genre> "http://pt.dbpedia.org/resource/Filme_de_ação" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/piste> "Merchant of Death@fr" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/produçãoExecutiva> "http://pt.dbpedia.org/resource/Jon_Favreau" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://www.w3.org/2000/01/rdf-schema#comment> "Iron Man (literalment en català \\\"Home de ferro\\\") és una pel·lícula estatunidenca de superherois de 2008, dirigida per Jon Favreau i basada en el personatge de còmic Iron Man de Marvel, creat per Stan Lee i Jack Kirby. El film està protagonitzat per Robert Downey Jr., i ha estat doblada al català.@ca" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://purl.org/dc/terms/subject> "http://pt.dbpedia.org/resource/Categoria:Filmes_de_aventura_dos_Estados_Unidos" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/wikiPageID> "809099^^http://www.w3.org/2001/XMLSchema#integer" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/starring> "http://pt.dbpedia.org/resource/Jeff_Bridges" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/wikiPageUsesTemplate> "http://fr.dbpedia.org/resource/Modèle:États-Unis" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://dbpedia.org/ontology/Film" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://ko.dbpedia.org/property/각본> "http://ko.dbpedia.org/resource/호크_오츠비" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://www.w3.org/2000/01/rdf-schema#label> "Железният човек (филм)@bg" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/abstract> "Iron Man (literalment en català \\\"Home de ferro\\\") és una pel·lícula estatunidenca de superherois de 2008, dirigida per Jon Favreau i basada en el personatge de còmic Iron Man de Marvel, creat per Stan Lee i Jack Kirby. El film està protagonitzat per Robert Downey Jr., i ha estat doblada al català.@ca" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://purl.org/dc/terms/subject> "http://ko.dbpedia.org/resource/분류:영어_영화_작품" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/produçãoExecutiva> "http://pt.dbpedia.org/resource/Stan_Lee" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://www.w3.org/ns/prov#wasDerivedFrom> "http://pt.wikipedia.org/wiki/Homem_de_Ferro_(filme)?oldid=44928449" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/executiveProducer> "http://pt.dbpedia.org/resource/Stan_Lee" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://ko.dbpedia.org/property/wikiPageUsesTemplate> "http://ko.dbpedia.org/resource/틀:마블_시네마틱_유니버스" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://purl.org/dc/terms/subject> "http://pt.dbpedia.org/resource/Categoria:Filmes_do_Homem_de_Ferro" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/titre> "Iron Man: Original Motion Picture Soundtrack@fr" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/temps> "215.0^^http://dbpedia.org/datatype/second" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://purl.org/dc/terms/subject> "http://fr.dbpedia.org/resource/Catégorie:Film_tourné_à_Las_Vegas" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/wikiPageUsesTemplate> "http://fr.dbpedia.org/resource/Modèle:Date" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://purl.org/dc/terms/subject> "http://pt.dbpedia.org/resource/Categoria:Filmes_ambientados_em_Las_Vegas" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://xmlns.com/foaf/0.1/isPrimaryTopicOf> "http://ko.wikipedia.org/wiki/아이언맨_(영화)" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://xmlns.com/foaf/0.1/isPrimaryTopicOf> "http://fr.wikipedia.org/wiki/Iron_Man_(film)" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/abstract> "Iron Man is een Amerikaanse superheldenfilm gebaseerd op de Marvel Comics-superheld Iron Man. De productie stond onder regie van Jon Favreau en ging op 14 april 2008 in Sydney in wereldpremière.Iron Man werd genomineerd voor Academy Awards voor de beeld- en de geluidsweergave. Het kreeg meer dan tien andere filmprijzen daadwerkelijk toegekend, waaronder een Satellite Award voor de montage van Dan Lebental en Saturn Awards voor zowel de beste sciencefictionfilm, regisseur Favreau als hoofdrolspeler Robert Downey Jr.@nl" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/wikiPageUsesTemplate> "http://pt.dbpedia.org/resource/Predefinição:Universo_Marvel_Cinematográfico" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/durée> "7560.0^^http://dbpedia.org/datatype/second" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/wikiPageExternalLink> "http://www.ironmanmovie.com/" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://ko.dbpedia.org/property/장르> "http://ko.dbpedia.org/resource/슈퍼히어로" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/wikiPageUsesTemplate> "http://fr.dbpedia.org/resource/Modèle:…" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/wikiPageLength> "3287^^http://www.w3.org/2001/XMLSchema#integer" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/genre> "http://fr.dbpedia.org/resource/Film_d'action" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/writer> "http://fr.dbpedia.org/resource/Mark_Fergus" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/executiveProducer> "http://pt.dbpedia.org/resource/Jon_Favreau" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/wikiPageExternalLink> "http://marvel.com/movies/movie/19/iron_man" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/imdbId> "0371746" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/wikiPageLength> "22925^^http://www.w3.org/2001/XMLSchema#nonNegativeInteger" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/wikiPageUsesTemplate> "http://fr.dbpedia.org/resource/Modèle:Portail" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/starring> "http://pt.dbpedia.org/resource/Robert_Downey,_Jr." .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/wikiPageExternalLink> "http://www.apple.com/trailers/paramount/ironman/" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/wikiPageUsesTemplate> "http://fr.dbpedia.org/resource/Modèle:Site_officiel" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/imagemTamanho> "255^^http://www.w3.org/2001/XMLSchema#integer" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/distribuição> "http://pt.dbpedia.org/resource/Paramount_Pictures" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://purl.org/dc/terms/subject> "http://fr.dbpedia.org/resource/Catégorie:Iron_Man" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/criaçãoOriginal> "Larry Lieber@pt" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://purl.org/dc/terms/subject> "http://fr.dbpedia.org/resource/Catégorie:Film_américain_sorti_en_2008" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/abstract> "Iron Man (amerikanische Aussprache: ['aɪɘrnˌmæn], britische Aussprache: ['aɪɘnˌmæn]) ist ein US-amerikanischer Action- und Science-Fiction-Spielfilm aus dem Jahr 2008, der als Comicverfilmung auf der Superhelden-Comicfigur Iron Man des Verlages Marvel basiert. Regie führte Jon Favreau, die Hauptrolle spielte Robert Downey Jr.. In den USA war Paramount Pictures für den Verleih zuständig, in Deutschland Concorde. Der offizielle Filmstart erfolgte in den USA am 2. Mai 2008, in Deutschland bereits am 1. Mai.Iron Man ist der erste Film, der direkt in Eigenfinanzierung von der zu Marvel gehörenden Produktionsgesellschaft Marvel Studios produziert wurde und Teil eines zusammenhängenden Universums, des „Marvel Cinematic Universe“, ist, zu dem neben den Fortsetzungen Iron Man 2 (2010) und Iron Man 3 (2013), auch die Filme Der unglaubliche Hulk (2008), Thor (2011), Captain America – The First Avenger (2011) und Marvel’s The Avengers (2012) gehören.Von Kritikern wurde Iron Man, insbesondere Hauptdarsteller Robert Downey Jr., weitgehend gelobt. Der Film spielte an den Kinokassen weltweit über 585 Millionen US-Dollar ein, wurde mit einem MTV Movie Award und drei Saturn Awards ausgezeichnet und in zwei Nebenkategorien für einen Oscar nominiert.@de" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://purl.org/dc/terms/subject> "http://pt.dbpedia.org/resource/Categoria:Filmes_dos_Estados_Unidos_de_2008" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/language> "http://pt.dbpedia.org/resource/Língua_inglesa" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://www.w3.org/2000/01/rdf-schema#label> "Homem de Ferro (filme)@pt" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://ko.dbpedia.org/property/촬영> "http://ko.dbpedia.org/resource/매슈_리바티크" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://purl.org/dc/terms/subject> "http://fr.dbpedia.org/resource/Catégorie:Film_de_Paramount_Pictures" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://xmlns.com/foaf/0.1/page> "http://www.ironmanmovie.com/" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://schema.org/CreativeWork" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/temps> "120.0^^http://dbpedia.org/datatype/second" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/wikiPageLength> "14115^^http://www.w3.org/2001/XMLSchema#nonNegativeInteger" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://purl.org/dc/terms/subject> "http://ko.dbpedia.org/resource/분류:파라마운트_픽처스_영화" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/scénario> "http://fr.dbpedia.org/resource/Hawk_Ostby" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/abstract> "Iron Man adalah sebuah film yang berdasarkan tokoh Marvel Comics Iron Man. Film ini disutradarai oleh Jon Favreau dan dibintangi Robert Downey Jr., Gwyneth Paltrow, Terrence Howard, dan Jeff Bridges. Film ini dirilis pada 2 Mei 2008 di Amerika Serikat.@id" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://www.w3.org/2000/01/rdf-schema#comment> "Iron Man (no Brasil e em Portugal, Homem de Ferro) é um filme americano de 2008, baseado no personagem de mesmo nome da Marvel Comics. Dirigido por Jon Favreau, o filme é estrelado por Robert Downey Jr. como Tony Stark, presidente das \\\"Indústrias Stark\\\" que constrói uma armadura superpoderosa e se torna um super-herói tecnologicamente avançado, o Homem de Ferro. Gwyneth Paltrow interpreta a sua assistente pessoal, Pepper Potts, Terrence Howard interpreta o comandante militar James Rhodes e Jeff Bridges interpreta o executivo das Indústrias Stark Obadiah Stane.@pt" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/lançamento> "30^^http://www.w3.org/2001/XMLSchema#integer" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/título> "Iron Man@pt" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://www.w3.org/2000/01/rdf-schema#comment> "아이언 맨(Iron Man)은 2008년에 개봉한 미국 만화책 회사인 마블 코믹스의 캐릭터 아이언맨을 원작으로 하여 만들어진 슈퍼히어로 액션 영화이다. 마블 시네마틱 유니버스를 기반으로 한 첫 영화이자 마블 스튜디오에서 제작한 첫 번째 영화다. 감독은 존 패브로이다.억만장자 사업가이자 천재 공학자인 토니 스타크가 아이언맨이라 불리는 무장 슈트를 만들어 평화를 지키기 위해 노력하는 이야기이다.@ko" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/produçãoExecutiva> "Louis D'Esposito@pt" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://ko.dbpedia.org/property/후편> "《아이언맨 2》@ko" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/wikiPageUsesTemplate> "http://pt.dbpedia.org/resource/Predefinição:USAb" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/wikiPageExternalLink> "http://movie.naver.com/movie/bi/mi/basic.nhn?code=44885" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://www.w3.org/2000/01/rdf-schema#comment> "Iron Man (no Brasil e em Portugal, Homem de Ferro) é um filme americano de 2008, baseado no personagem de mesmo nome da Marvel Comics. Dirigido por Jon Favreau, o filme é estrelado por Robert Downey Jr. como Tony Stark, presidente das \\\"Indústrias Stark\\\" que constrói uma armadura superpoderosa e se torna um super-herói tecnologicamente avançado, o Homem de Ferro.@pt" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://xmlns.com/foaf/0.1/name> "아이언 맨@ko" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/piste> "Section 16@fr" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/temps> "129.0^^http://dbpedia.org/datatype/second" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://www.w3.org/2000/01/rdf-schema#comment> "Iron Man est un film américain réalisé par Jon Favreau, sorti en 2008, tiré du comics éponyme publié par Marvel. Il s'agit de la première étape de l'Univers cinématographique Marvel, dont la première phase s'est terminée en 2012 avec Avengers de Joss Whedon.Ce film marque aussi la résurrection cinématographique de Robert Downey Jr., qui connait grâce à ce rôle un regain de popularité qui ne s'est pour l'instant pas démenti.@fr" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://ko.dbpedia.org/property/개봉> "2008^^http://www.w3.org/2001/XMLSchema#integer" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://www.w3.org/2000/01/rdf-schema#label> "Iron Man (film)@pl" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/wikiPageID> "1177207^^http://www.w3.org/2001/XMLSchema#integer" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/piste> "Extra Dry, Extra Olives@fr" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/wikiPageUsesTemplate> "http://fr.dbpedia.org/resource/Modèle:Palette" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://ko.dbpedia.org/property/wikiPageUsesTemplate> "http://ko.dbpedia.org/resource/틀:Mojo_title" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://www.w3.org/2000/01/rdf-schema#label> "Iron Man (film)@fr" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://www.w3.org/2000/01/rdf-schema#label> "Iron Man (película)@es" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/piste> "Driving With The Top Down@fr" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/temps> "253.0^^http://dbpedia.org/datatype/second" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/réalisation> "http://fr.dbpedia.org/resource/Jon_Favreau" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/temps> "236.0^^http://dbpedia.org/datatype/second" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/estúdio> "Fairview Entertainment@pt" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://www.w3.org/2000/01/rdf-schema#comment> "A Vasember (Iron Man) 2008-ban bemutatott szuperhős-film a Marvel Comics Vasember-képregényei alapján, melynek bemutatója világszerte, köztük Magyarországon is 2008. április 30-án volt. A Jon Favreau rendezésében készült filmben Tony Starkot (Robert Downey Jr.), a milliárdos fegyvergyárost terroristák ejtik foglyul Afganisztánban. Rakéta összeszerelésére kényszerítik, azonban Stark a rendelkezésre álló eszközökből páncélzatot épít magának a szökéshez.@hu" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://ko.dbpedia.org/property/wikiPageUsesTemplate> "http://ko.dbpedia.org/resource/틀:아이언맨" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://www.w3.org/2000/01/rdf-schema#comment> "Железният човек (на английски: Iron Man) е американски филм от 2008 година, базиран на едноименния герой на Марвел Комикс.@bg" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/abstract> "『アイアンマン』（英: Iron Man）は、2008年のアメリカ映画。主演はロバート・ダウニー・Jr。@ja" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://www.w3.org/2000/01/rdf-schema#label> "A Vasember (film, 2008)@hu" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/distributor> "http://ko.dbpedia.org/resource/파라마운트_픽쳐스" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://www.w3.org/2000/01/rdf-schema#label> "아이언맨 (영화)@ko" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://ko.dbpedia.org/property/언어> "http://ko.dbpedia.org/resource/영어" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/criaçãoOriginal> "http://pt.dbpedia.org/resource/Stan_Lee" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/wikiPageUsesTemplate> "http://fr.dbpedia.org/resource/Modèle:VF" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://purl.org/dc/terms/subject> "http://fr.dbpedia.org/resource/Catégorie:Film_tourné_à_Malibu" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://ko.dbpedia.org/property/wikiPageUsesTemplate> "http://ko.dbpedia.org/resource/틀:언어고리" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/temps> "246.0^^http://dbpedia.org/datatype/second" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/abstract> "Iron Man (Türkçe: Demir Adam), 2008 yapımı Marvel Comics Şirketi’nin Demir Adam çizgi romanı beyazperde uyarlaması olan film. Robert Downey Jr. filmin kahramanı Demir Adam'ı canlandırıyor. Filmde oyuncuya Terrence Howard, Gwyneth Paltrow ve Jeff Bridges eşlik ediyor. Filmin devamı 2010 yılında gösterime girdi ve başrolde yine Robert Downey Jr. oynadı.@tr" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/wikiPageUsesTemplate> "http://pt.dbpedia.org/resource/Predefinição:Filmes_da_Marvel_Comics" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/produçãoExecutiva> "David Maisel@pt" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/abstract> "«Железный человек» (англ. Iron Man) — научно-фантастический боевик 2008 года, рассказывающий о приключениях одноимённого персонажа комиксов компании Marvel. Фильм снят Marvel Studios под руководством Джона Фавро, а роль главного героя — Тони Старка, промышленника и гениального изобретателя, разработавшего экзоскелет для побега из плена и позже ставшего супергероем по имени Железный человек, исполнил Роберт Дауни-младший. Остальные роли исполнили Гвинет Пэлтроу, Терренс Ховард, Джефф Бриджес, Лесли Бибб, Шон Тоуб, Фаран Таир, Кларк Грегг, Пол Беттани, Тим Гини и другие.Фильм разрабатывался с 1990-х годов компаниями Universal Studios, 20th Century Fox и New Line Cinema, а в 2006 году Marvel Studios выкупила права на съёмку. Для Marvel это был первый полностью финансово самостоятельный проект. Фавро, став руководителем съёмок, принял решение снимать фильм в первую очередь в Калифорнии, чтобы выделить «Железного человека» среди многочисленных фильмов про супергероев, снятых в Нью-Йорке. Во время съемок актеры могли свободно изменять свои диалоги, потому что всё внимание было сосредоточено на сюжете фильма. Резиновые и металлические брони, созданные Стэнли Уинстоном, были дополнены компьютерной графикой для создания главного героя.Отзывы о фильме были очень хорошими, особенно хвалили актёрскую игру Роберта Дауни. Американский институт киноискусства включил Железного человека в десятку лучших фильмов 2008 года. Дауни, Фавро и Пэлтроу участвовали в сиквеле «Железный человек 2», вышедшем 7 мая 2010 года. Также Дауни сыграл эпизодическую роль Тони Старка в фантастическом боевике «Невероятный Халк». Американская ассоциация кинокомпаний присвоила фильму рейтинг PG-13 (детям до 13 лет только с родителями) из-за научно-фантастического уклона и проявлений насилия. «Железный человек» стал первой частью «Кинематографической вселенной Marvel», фильмы которой объединяются в общую сюжетную линию.@ru" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/imagem> "Iron Man poster.jpg@pt" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/wikiPageOutDegree> "83^^http://www.w3.org/2001/XMLSchema#integer" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/acteur> "http://fr.dbpedia.org/resource/Robert_Downey_Jr." .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/produçãoExecutiva> "Peter Billingsley@pt" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://www.w3.org/2000/01/rdf-schema#comment> "Iron Man (Türkçe: Demir Adam), 2008 yapımı Marvel Comics Şirketi’nin Demir Adam çizgi romanı beyazperde uyarlaması olan film. Robert Downey Jr. filmin kahramanı Demir Adam'ı canlandırıyor. Filmde oyuncuya Terrence Howard, Gwyneth Paltrow ve Jeff Bridges eşlik ediyor. Filmin devamı 2010 yılında gösterime girdi ve başrolde yine Robert Downey Jr. oynadı.@tr" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/género> "http://pt.dbpedia.org/resource/Filme_de_ficção_científica" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://dbpedia.org/ontology/Wikidata:Q11424" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/wikiPageUsesTemplate> "http://fr.dbpedia.org/resource/Modèle:Citation_étrangère" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/légende> "Les trois armures du film.@fr" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/piste> "Arc Reactor@fr" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/wikiPageID> "198191^^http://www.w3.org/2001/XMLSchema#integer" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://purl.org/dc/terms/subject> "http://pt.dbpedia.org/resource/Categoria:Filmes_gravados_em_Los_Angeles" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://www.w3.org/ns/prov#wasDerivedFrom> "http://fr.wikipedia.org/wiki/Iron_Man_(film)?oldid=110899501" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/wikiPageExternalLink> "http://www.superherohype.com/news/topnews.php?id=7224" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/abstract> "Iron Man is a 2008 American superhero film based on the Marvel Comics character of the same name, produced by Marvel Studios and distributed by Paramount Pictures. It is the first installment in the Marvel Cinematic Universe. Directed by Jon Favreau and written by Mark Fergus and Hawk Ostby, Art Marcum and Matt Holloway, the film stars Robert Downey, Jr., Terrence Howard, Jeff Bridges, Shaun Toub and Gwyneth Paltrow. The film sees Tony Stark, an industrialist and master engineer, build a powered exoskeleton and becomes the technologically advanced superhero Iron Man.The film had been in development since 1990 at Universal Pictures, 20th Century Fox, and New Line Cinema, before Marvel Studios reacquired the rights in 2006. Marvel put the project in production as its first self-financed film, with Paramount Pictures as its distributor. Favreau signed on as director, aiming for a naturalistic feel, and he chose to shoot the film primarily in California, rejecting the East Coast setting of the comics to differentiate the film from numerous superhero films set in New York City-esque environments. During filming, the actors were free to create their own dialogue because pre-production was focused on the story and action. Rubber and metal versions of the armors, created by Stan Winston's company, were mixed with computer-generated imagery to create the title character. Hasbro and Sega sold merchandise, and product placement deals were made with Audi, Burger King, LG and 7-Eleven.Reviews were positive, particularly praising Downey's performance. The American Film Institute selected the film as one of the ten best of the year. A sequel Iron Man 2, was released on May 7, 2010, and another sequel, Iron Man 3, was released on May 3, 2013.@en" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/orçamento> "US$ 140 milhões@pt" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://ko.dbpedia.org/property/배급> "패러마운트 픽쳐스@ko" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/acteur> "http://fr.dbpedia.org/resource/Jeff_Bridges" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/duração> "126^^http://www.w3.org/2001/XMLSchema#integer" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/wikiPageUsesTemplate> "http://fr.dbpedia.org/resource/Modèle:France" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/producedBy> "http://fr.dbpedia.org/resource/Marvel_Studios" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/temps> "169.0^^http://dbpedia.org/datatype/second" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/charte> "bande originale@fr" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/títuloBr> "Homem de Ferro@pt" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/piste> "Trinkets to Kill a Prince@fr" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://purl.org/dc/terms/subject> "http://fr.dbpedia.org/resource/Catégorie:Film_nommé_aux_Oscars" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://ko.dbpedia.org/property/시간> "126^^http://www.w3.org/2001/XMLSchema#integer" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/wikiPageUsesTemplate> "http://pt.dbpedia.org/resource/Predefinição:Formatar_referências" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/direção> "http://pt.dbpedia.org/resource/Jon_Favreau" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/wikiPageUsesTemplate> "http://pt.dbpedia.org/resource/Predefinição:PRTb" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://xmlns.com/foaf/0.1/isPrimaryTopicOf> "http://pt.wikipedia.org/wiki/Homem_de_Ferro_(filme)" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://www.w3.org/2000/01/rdf-schema#comment> "Iron Man – amerykański film akcji w reżyserii Jona Favreau z 2008. Film jest oparty na serii komiksów o Iron Manie – postaci komiksowej stworzonej przez Stana Lee, Larry’ego Liebera, Jacka Kirby’ego i Dona Hecka. Film jest pierwszą częścią inicjatywy Marvel Cinematic Universe oraz pierwszym filmem z serii Iron Man. Jego kontynuacja (Iron Man 2) pojawiła się 2 lata później a trzecia część (Iron Man 3) 5 lat później.Głównym bohaterem filmu jest grany przez Roberta Downeya, Jr.@pl" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/wikiPageRevisionID> "14331096^^http://www.w3.org/2001/XMLSchema#integer" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://ko.dbpedia.org/property/wikiPageUsesTemplate> "http://ko.dbpedia.org/resource/틀:Metacritic_film" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/production> "http://fr.dbpedia.org/resource/Paramount_Pictures" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/filmRuntime> "7560.0^^http://www.w3.org/2001/XMLSchema#double" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/criaçãoOriginal> "http://pt.dbpedia.org/resource/Jack_Kirby" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://ko.dbpedia.org/property/wikiPageUsesTemplate> "http://ko.dbpedia.org/resource/틀:IMDb_title" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://purl.org/dc/terms/subject> "http://fr.dbpedia.org/resource/Catégorie:Film_de_super-héros_inspiré_de_comics" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/piste> "Gulmira@fr" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/wikiPageExternalLink> "http://www.ironmanmovie.com" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://schema.org/Movie" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/corPb> "cor@pt" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/edição> "Glen Scantlebury@pt" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://purl.org/dc/terms/subject> "http://fr.dbpedia.org/resource/Catégorie:Univers_cinématographique_Marvel" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/abstract> "Iron Man (titulada Iron Man: el hombre de hierro en Hispanoamérica) es una película de superhéroes basada en el personaje homónimo de Marvel Comics y estrenada en 2008. Dirigida por Jon Favreau, la película contó con el actor Robert Downey, Jr. como Tony Stark, un empresario millonario e ingeniero maestro que construye un poderoso exoesqueleto y que con la ayuda de éste se convierte en un superhéroe tecnológicamente avanzado, Iron Man. Asimismo, se contrataron a: Gwyneth Paltrow como Pepper Potts, su asistente personal; Terrence Howard como James Rhodes, un piloto militar y colega del protagonista; y Jeff Bridges como un ejecutivo de Industrias Stark, es decir Obadiah Stane.El desarrollo de la película comenzó en 1990 con Universal Pictures aunque se pospuso por algún tiempo pues pasó a manos de 20th Century Fox y luego fue comprada por New Line Cinema, previo a que Marvel Studios adquiriera de nuevo los derechos atinentes al personaje en 2006. De esta manera, los ejecutivos de Marvel iniciaron la producción del proyecto como la primera película financiada por ellos mismos, contando así con Sony Pictures como la empresa distribuidora del filme.Impulsado por una sensación naturalista, Favreau firmó como director y refutó el hecho de filmar en la Costa Este de los Estados Unidos, aún cuando en las historietas del personaje éste es el escenario principal, con el fin de diferenciar la película de otras cintas de superhérores en las que la acción se lleva a cabo en ambientes asociados con la Ciudad de Nueva York; en su lugar, optó por rodar la película primordialmente en California. Durante el rodaje, a los actores se les brindó la oportunidad de crear sus propios diálogos debido a que en la preproducción los realizadores se habían enfocado en la historia y acción. Además, a algunas versiones de caucho y metal de las armaduras, creadas por la compañía de Stan Winston, se les añadieron imágenes generadas por computadora con el propósito de diseñar el personaje estelar. Para intensificar la publicidad del filme, industrias como Hasbro y Sega pusieron a la venta mercadotecnia concerniente a la película, entre que se negoció publicidad por emplazamiento con las empresas Audi, Burger King, LG y 7-Eleven. Muchas de las reseñas críticas dedicadas a la cinta fueron favorables, mismas que en especial alabaron la interpretación de Downey como el hérore principal. Así, la American Film Institute seleccionó el filme como uno de los diez mejores del año. Downey, Favreau, y Paltrow retomaron su labor en la secuela Iron Man 2, lanzada el 7 de mayo de 2010. Dado que Iron Man comparte el mismo universo con otras entregas fílmicas que han sido producidas independientemente por Marvel Studios (denominado «Universo cinematográfico de Marvel»), Downey hizo una aparición al estilo cameo como su personaje de Stark en The Incredible Hulk y fue uno de los estelares de la megaproducción coral The Avengers, un crossover ficcional cuyo debut en cines se dio en 2012. Igualmente, Downey volvió a su rol en otra secuela, Iron Man 3, cuya fecha de estreno fue el día 3 de mayo de 2013.@es" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/producer> "http://ko.dbpedia.org/resource/아비_아라드" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/director> "http://ko.dbpedia.org/resource/존_패브로" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://purl.org/dc/terms/subject> "http://fr.dbpedia.org/resource/Catégorie:Film_tourné_à_Los_Angeles" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/wikiPageUsesTemplate> "http://pt.dbpedia.org/resource/Predefinição:USA" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/writer> "http://fr.dbpedia.org/resource/Hawk_Ostby" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/temps> "21.0^^http://dbpedia.org/datatype/second" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/abstract> "Iron Man est un film américain réalisé par Jon Favreau, sorti en 2008, tiré du comics éponyme publié par Marvel. Il s'agit de la première étape de l'Univers cinématographique Marvel, dont la première phase s'est terminée en 2012 avec Avengers de Joss Whedon.Ce film marque aussi la résurrection cinématographique de Robert Downey Jr., qui connait grâce à ce rôle un regain de popularité qui ne s'est pour l'instant pas démenti.@fr" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/titre> "Iron Man@fr" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/wikiPageUsesTemplate> "http://fr.dbpedia.org/resource/Modèle:Infobox_Musique_(œuvre)" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/criaçãoOriginal> "Don Heck@pt" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://www.w3.org/2000/01/rdf-schema#label> "アイアンマン (映画)@ja" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://ko.dbpedia.org/property/각본> "맷 홀러웨이@ko" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://www.w3.org/2000/01/rdf-schema#label> "Iron Man (2008)@nl" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://purl.org/dc/terms/subject> "http://fr.dbpedia.org/resource/Catégorie:Film_se_déroulant_en_Afghanistan" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/abstract> "Iron Man (2008) je americký komiksový film. Hlavním hrdinou je komiksový hrdina Iron Man.@cs" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/género> "http://pt.dbpedia.org/resource/Filme_de_ação" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/scénario> "http://fr.dbpedia.org/resource/Matt_Holloway" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://ko.dbpedia.org/property/음악> "http://ko.dbpedia.org/resource/라민_자와디" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/producer> "http://pt.dbpedia.org/resource/Kevin_Feige" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://purl.org/dc/terms/subject> "http://ko.dbpedia.org/resource/분류:슈퍼히어로_영화" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/scénario> "http://fr.dbpedia.org/resource/Mark_Fergus" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://ko.dbpedia.org/property/wikiPageUsesTemplate> "http://ko.dbpedia.org/resource/틀:Link_GA" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/abstract> "Iron Man è un film del 2008 diretto da Jon Favreau e interpretato da Robert Downey Jr., basato sul personaggio dei fumetti della Marvel Comics Iron Man, creato da Stan Lee, Jack Kirby, Larry Lieber e Don Heck. Alla stesura della sceneggiatura, scritta da Mark Fergus, Hawk Ostby, Art Marcum e Matt Holloway, hanno partecipato anche i fumettisti Joe Quesada, Brian Michael Bendis, Mark Millar, Ralph Macchio, Tom Brevoort e Axel Alonzo. La scena-cameo di Nick Fury (Samuel L. Jackson) è stata scritta da Brian Michael Bendis.La pellicola è uscita nelle sale cinematografiche degli USA il 2 maggio 2008, mentre in quelle italiane il 1º maggio 2008.Il film è il primo passo verso il crossover The Avengers (2012).@it" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/wikiPageExternalLink> "http://allmovie.com/cg/avg.dll?p=avg&sql=1:353425" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/edição> "Dan Lebental@pt" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/elenco> "http://pt.dbpedia.org/resource/Jeff_Bridges" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/wikiPageUsesTemplate> "http://pt.dbpedia.org/resource/Predefinição:DJCTQ_-_12" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/wikiPageUsesTemplate> "http://fr.dbpedia.org/resource/Modèle:Pistes" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://www.w3.org/2000/01/rdf-schema#comment> "Iron Man (amerikanische Aussprache: ['aɪɘrnˌmæn], britische Aussprache: ['aɪɘnˌmæn]) ist ein US-amerikanischer Action- und Science-Fiction-Spielfilm aus dem Jahr 2008, der als Comicverfilmung auf der Superhelden-Comicfigur Iron Man des Verlages Marvel basiert. Regie führte Jon Favreau, die Hauptrolle spielte Robert Downey Jr.. In den USA war Paramount Pictures für den Verleih zuständig, in Deutschland Concorde. Der offizielle Filmstart erfolgte in den USA am 2.@de" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/genre> "http://pt.dbpedia.org/resource/Filme_de_ficção_científica" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://pt.dbpedia.org/property/receita> "5.85174222E8^^http://dbpedia.org/datatype/usDollar" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/sorti> "2008-05-06+02:00^^http://www.w3.org/2001/XMLSchema#date" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/temps> "188.0^^http://dbpedia.org/datatype/second" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/producedBy> "http://fr.dbpedia.org/resource/Paramount_Pictures" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/wikiPageRevisionID> "12043878^^http://www.w3.org/2001/XMLSchema#integer" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/gross> "5.85174222E8^^http://dbpedia.org/datatype/usDollar" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://fr.dbpedia.org/property/piste> "Damn Kid@fr" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://www.w3.org/2000/01/rdf-schema#label> "Demir Adam (film, 2008)@tr" .
+<http://fr.dbpedia.org/resource/Iron_Man_(film)> <http://dbpedia.org/ontology/cinematography> "http://ko.dbpedia.org/resource/매슈_리바티크" .
