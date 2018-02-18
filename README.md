@@ -1,7 +1,7 @@
-# IDS, OS and LPM
+# CBIDS, OS and LPM
 
 
-Os is the searching API to get datas that have ontology Info using in LPS RDF results like 'predicate'.
+OS is the searching API to get datas that have ontology Info using in CBIDS'z RDF results like 'predicate'.
 
 LPM is the Link-Policy maker used in LPS.
 
@@ -15,8 +15,8 @@ Also, in case of using LPS, You must imort 'java-string-similarity-0.21.jar' adi
 
 
 
-# IDS(In-Depth-Searching)
-IDS is the searching API to get RDF datas in LODs using Link-Policy-Link and Explicit-Link.
+# CBIDS(Cycle based In-Depth Searching)
+CBIDS is the searching API to get RDF datas in LODs using Link-Policy-Link and Explicit-Link.
 
 Link-Policy-Link use Link-Policy declared by user that has the information to link another LODs.
 
@@ -34,7 +34,11 @@ Predicate Matching Specifiation is predicate informations about source LOD and t
 Predicate Matching Specification is subordinate to Topic Restriction Specification.
 this mean that Predicate Mathching Specification takes effect when source entity and target entity are matched to Topic Restriction Specification with whitch Predicate Matching Specificatio is linked.
 
-if you want to check Link-Policy, Please download Link-Policy in this folder (ko.dbpedia.org_linkPolicy.rdf,fr.dbpedia.org_linkPolicy.rdf...)
+CBIDS also support EC(Entity Confidence) that means that How user can trust Entity that searched by IDS
+
+if users set ec they want, CBIDS clean results that  coincide with ec
+
+if you want to check Link-Policy, Please download Link-Policy in CBIDS folder (ko.dbpedia.org_linkPolicy.rdf,fr.dbpedia.org_linkPolicy.rdf...)
 
 # OS(Ontology Searcher)
 
