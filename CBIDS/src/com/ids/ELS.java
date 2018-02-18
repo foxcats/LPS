@@ -24,6 +24,11 @@ public class ELS implements IDS{
 		this.percent=percent;
 	}
 	
+	public ELS()
+	{
+		
+	}
+	
 	public String makeSparqlEndpoint(String tmp)
 	{
 		//Make SPARQL endpoint by uri address
@@ -50,9 +55,6 @@ public class ELS implements IDS{
 		
 		int p=source.getSameAsList().size();
 		
-		
-		if(percent==0){
-			
 			//TripleInformation.getSameAsList().size()
 		for(int i=0; i<source.getExplicitSameAsList().size(); i++)
 		{
@@ -93,80 +95,6 @@ public class ELS implements IDS{
 				else
 					continue;
 			}
-		}
-		
-		}
-		else{
-			
-			Random random=new Random();
-			int num=(int) (source.getExplicitSameAsList().size()*percent);
-			
-			int sameAsNum=source.getExplicitSameAsList().size();
-			ArrayList<String> exlicitList=new ArrayList<String>();
-			for(int i=0; i<num; i++)
-			{
-				
-				int index=random.nextInt(source.getExplicitSameAsList().size()-1);
-				
-				if(source.getExplicitSameAsList().get(index) == null)
-				{
-					i++;
-					i--;
-					continue;
-				}
-				
-				//Use sameAs info saved by TripleAccumulator
-				uri=source.getExplicitSameAsList().get(index);
-				source.getExplicitSameAsList().remove(index);
-				
-	
-			}
-			
-			for(int i=0; i<source.getExplicitSameAsList().size(); i++)
-			{
-	
-				if(source.getExplicitSameAsList().get(i)==null)
-				{
-					continue;
-				}
-				
-				uri=source.getExplicitSameAsList().get(i);
-				
-				if(source.getUri().equals(uri))
-					//if target URI is same with source URI, Don't register in sameAsList
-					{
-						System.out.println("주어와일치");
-						continue;
-					}
-				
-				highUri=makeSparqlEndpoint(uri);
-				//make SPARQL endpoint by uri that is sameAs uri
-				Entity target=PESController.uriStorage.getEntity(uri);
-				
-				if(target==null)
-				{
-					target=new Entity(uri,highUri,
-							source.getSurfaceSearchUri(),1,source.getUri());
-					
-					source.getSameAsList().put(p, target);
-					source.getDuplicationList().put(uri, uri);
-					target.setExistInUriStorage(true);
-					PESController.uriStorage.putEntity(target.getUri(), target);
-					p++;
-				}
-				else
-				{
-					if(source.getDuplicationList().get(uri)==null)
-					{
-						source.getSameAsList().put(p,target);
-						source.getDuplicationList().put(uri, uri);
-						p++;
-					}
-					else
-						continue;
-				}
-			}
-			
 		}
 		
 	}

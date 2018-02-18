@@ -20,10 +20,22 @@ public class IDSFactory {
 		IDS ids=new LPS(linkPolicy,(1-similarity),new CandidateConstructor(),new ObjectComparison());
 		return ids;
 	}
+	
+	public IDS getELS()
+	{
+		IDS ids=new ELS();
+		return ids;
+	}
 
 	public IDS getELS(double percent)
 	{
 		IDS ids=new ELS(percent);
+		return ids;
+	}
+	
+	public IDS getCLS(LinkPolicyReader linkPolicy,double similarity)
+	{
+		IDS ids=new CLS(getLPS(linkPolicy,similarity),getELS());
 		return ids;
 	}
 	

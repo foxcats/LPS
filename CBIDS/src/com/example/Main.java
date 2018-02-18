@@ -25,11 +25,13 @@ public class Main {
 		//search surface-searching
 		
 	
-		//IDSController IDS =new IDSController("IronMan_3_1",sfsList,6,1,idsFactory.getELS(1));
-		//IDSController IDS =new IDSController("IronMan_3_1",sfsList,13,1,idsFactory.getELS(0.8));
+		
 		IDSController IDS =new IDSController("IronMan_3_1",sfsList,2,1,idsFactory.getLPS(linkpolicyReader,1));
 		//insert information about file name, sfs results, depth, Entity Confidence(EC) and In-depth Searching(IDS)
-		//IDS: ELS(Explicit Link-based Searching) LPS(Link Policy-based Searching) CLS(ELS+LPS)
+		
+		//IDSController IDS =new IDSController("IronMan_3_1",sfsList,2,1,idsFactory.getCLS(linkpolicyReader,1));
+		//IDSController IDS =new IDSController("IronMan_3_1",sfsList,6,1,idsFactory.getELS());
+		
 		IDS.search();
 		//start IDS
 	}

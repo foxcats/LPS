@@ -143,13 +143,10 @@ public class LPS implements IDS{
 				
 				while(tmp.hasMoreElements()){
 					String tmpTarget=tmp.nextElement();
-					System.out.println(tmpTarget);
 					linkpolicyTargetPredicateList.add(tmpTarget);
 				}
 				
 			}
-			
-			System.out.println(linkpolicyTargetPredicateList.size());
 			
 			targetCandidate=candidateConstructor.searchCandidate(linkPolicyMatcher.getTargetType(),linkPolicyMatcher.getTargetTypePredicate(),
 					linkpolicyTargetPredicateList,targetList.get(i));

@@ -75,7 +75,7 @@ public class PESController {
 			}
 			Entity source=uriList.get(index);
 			//get entity to Uri-List 
-			System.out.println(source.getUri());
+			System.out.println("source: "+source.getUri()+" Depth: "+source.getDepth());
 			
 			if(source.getDepth()==0)
 			{
@@ -123,7 +123,6 @@ public class PESController {
 		}
 		 this.agreement=0;
 		 this.allAgreement=0;
-		 System.out.println(num);
 		 clearValidity();
 		
 		this.lodStorage.getLodList().clear();
@@ -244,10 +243,13 @@ public class PESController {
 	public void clearValidity(){
 		Enumeration test=this.uriStorage.getUriStorage().elements();
 		
+		System.out.println("----------------------결과-----------------------");
 		while(test.hasMoreElements()){
 			Entity tmp=(Entity)test.nextElement();
+			System.out.println(tmp.getUri());
 			tmp.setValidity(-1);
 		}
+		System.out.println("-----------------------------------------------");
 	}
 	
 	public int performCRC(Entity source,Entity target,int index,writer rdfWriter)
